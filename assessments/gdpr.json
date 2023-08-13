@@ -1,0 +1,124 @@
+{
+  "category": [
+    {
+      "title": "Lawful basis and transparency",
+      "items": [
+        {
+          "requirement": "Conduct an information audit to determine what information you process and who has access to it.",
+          "description": "Organizations that have at least 250 employees or conduct higher-risk data processing are required to keep an up-to-date and detailed list of their processing activities and be prepared to show that list to regulators upon request. The best way to demonstrate GDPR compliance is using a data protection impact assessment. Organizations with fewer than 250 employees should also conduct an assessment because it will make complying with the GDPR's other requirements easier. In your list, you should include: the purposes of the processing, what kind of data you process, who has access to it in your organization, any third parties (and where they are located) that have access, what you're doing to protect the data (e.g. encryption), and when you plan to erase it (if possible).",
+          "id": "bd7559f5-e9ec-40f7-94e8-db1eff85d097"
+        },
+        {
+          "requirement": "Have a legal justification for your data processing activities.",
+          "description": "Processing of data is illegal under the GDPR unless you can justify it according to one of six conditions listed in Article 6. There are other provisions related to children and special categories of personal data in Articles 7-11. Review these provisions, choose a lawful basis for processing, and document your rationale. Note that if you choose \"consent\" as your lawful basis, there are extra obligations, including giving data subjects the ongoing opportunity to revoke consent. If \"legitimate interests\" is your lawful basis, you must be able to demonstrate you have conducted a privacy impact assessment.",
+          "id": "f945435c-2ff8-443b-a48c-0ad1e076e778"
+        },
+        {
+          "requirement": "Provide clear information about your data processing and legal justification in your privacy policy.",
+          "description": "You need to tell people that you're collecting their data and why (Article 12). You should explain how the data is processed, who has access to it, and how you're keeping it safe. This information should be included in your privacy policy and provided to data subjects at the time you collect their data. It must be presented \"in a concise, transparent, intelligible and easily accessible form, using clear and plain language, in particular for any information addressed specifically to a child.\"",
+          "id": "23c8dc4e-53ce-4180-87a0-c39f83252b15"
+        }
+      ],
+      "id": "2a13fd38-58fd-4157-9556-014180f53c61"
+    },
+    {
+      "title": "Data security",
+      "items": [
+        {
+          "requirement": "Take data protection into account at all times, from the moment you begin developing a product to each time you process data.",
+          "description": "You must follow the principles of \"data protection by design and by default,\" including implementing \"appropriate technical and organizational measures\" to protect data. In other words, data protection is something you now have to consider whenever you do anything with other people's personal data. You also need to make sure any processing of personal data adheres to the data protection principles outlined in Article 5. Technical measures include encryption, and organizational measures are things like limiting the amount of personal data you collect or deleting data you no longer need. The point is that it needs to be something you and your employees are always aware of.",
+          "id": "fdc9d414-1134-4992-a467-5fcbb5af4f0a"
+        },
+        {
+          "requirement": "Encrypt, pseudonymize, or anonymize personal data wherever possible.",
+          "description": "The GDPR doesn't say anything specific about encryption, pseudonymization, or anonymization. However, Recital 78 says that these can be used as measures to ensure data security. If you're processing data on behalf of someone else (e.g. as a processor), you need to ensure that data is encrypted. If you're a controller, you should pseudonymize personal data where possible. Pseudonymization is when you replace the most identifying fields within a database with artificial identifiers, or pseudonyms. However, you need to make sure that you can still achieve the same purpose with the pseudonymized data.",
+          "id": "05e45691-05bd-4e0d-bc51-5795b48f330f"
+        },
+        {
+          "requirement": "Create an internal security policy for your team members, and build awareness about data protection.",
+          "description": "Security isn't just about locking up filing cabinets or putting passwords on computers. It's also about making sure that people in your organization are aware of data protection issues. You should create a security policy and distribute it to all your employees. This will help make sure everyone understands the importance of data protection and how it affects their day-to-day work. You should also make sure everyone receives training on data protection issues, especially those in your organization who handle personal data.",
+          "id": "93aeae4c-7191-428d-8a21-bf02be4409fd"
+        },
+        {
+          "requirement": "Know when to conduct a data protection impact assessment, and have a process in place to carry it out.",
+          "description": "A data protection impact assessment (DPIA) is a process to help you identify and minimize the data protection risks of a project. It's similar to a risk assessment. A DPIA is required when processing is likely to result in a high risk to the rights and freedoms of individuals. You should carry out a DPIA before you start any processing that is likely to result in a high risk. This will help you identify and fix problems at an early stage and demonstrate your compliance with the GDPR.",
+          "id": "8beae483-c447-495e-b621-8a6252dee326"
+        },
+        {
+          "requirement": "Have a process in place to notify the authorities and your data subjects in the event of a data breach.",
+          "description": "A personal data breach is a breach of security that leads to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data. If you experience a personal data breach, you must notify the appropriate supervisory authority within 72 hours, unless the breach is unlikely to result in a risk to the rights and freedoms of individuals. If the breach is likely to result in a high risk to the rights and freedoms of individuals, you must also notify those individuals without undue delay.",
+          "id": "86ed149f-be68-4331-9475-48e770b3ed54"
+        }
+      ],
+      "id": "dca11080-7a27-4c4c-84e5-cbffeb909148"
+    },
+    {
+      "title": "Accountability and governance",
+      "items": [
+        {
+          "requirement": "Designate someone responsible for ensuring GDPR compliance across your organization.",
+          "description": "Another part of \"data protection by design and by default\" is making sure someone in your organization is accountable for GDPR compliance. This person should be empowered to evaluate data protection policies and the implementation of those policies.",
+          "id": "2782da32-6f9c-4b4d-8267-1503479de2da"
+        },
+        {
+          "requirement": "Sign a data processing agreement between your organization and any third parties that process personal data on your behalf.",
+          "description": "This includes any third-party services that handle the personal data of your data subjects, including analytics software, email services, cloud servers, etc. The vast majority of services have a standard data processing agreement available on their websites for you to review. They spell out the rights and obligations of each party for GDPR compliance. You should only use third parties that are reliable and can make sufficient data protection guarantees.",
+          "id": "545d6a0f-3fcf-43d3-b14d-4c717df2c147"
+        },
+        {
+          "requirement": "If your organization is outside the EU, appoint a representative within one of the EU member states.",
+          "description": "If you process data relating to people in one particular member state, you need to appoint a representative in that country who can communicate on your behalf with data protection authorities. The GDPR and its official supporting documents do not give guidance for situations where processing affects EU individuals across multiple member states. Until this requirement is interpreted, it may be prudent to designate a representative in a member state that uses your language. Some organizations, like public bodies, are not required to appoint a representative in the EU.",
+          "id": "0bf60672-fad3-4e43-9674-878447c79a0c"
+        },
+        {
+          "requirement": "Appoint a Data Protection Officer (if necessary)",
+          "description": "There are three circumstances in which organizations are required to have a Data Protection Officer (DPO), but it's not a bad idea to have one even if the rule doesn't apply to you. The DPO should be an expert on data protection whose job is to monitor GDPR compliance, assess data protection risks, advise on data protection impact assessments, and cooperate with regulators.",
+          "id": "e327dcee-bbab-4819-b21b-bea7a0e2bd6d"
+        }
+      ],
+      "id": "910bdee7-9320-46a4-aac4-30c28acf7dc3"
+    },
+    {
+      "title": "Privacy rights",
+      "items": [
+        {
+          "requirement": "It's easy for your customers to request and receive all the information you have about them.",
+          "description": "People have the right to see what personal data you have about them and how you're using it. They also have a right to know how long you plan to store their information and the reason for keeping it that length of time. You have to send them the first copy of this information for free but can charge a reasonable fee for subsequent copies. Make sure you can verify the identity of the person requesting the data. You should be able to comply with such requests within a month.",
+          "id": "279c1f70-fc0f-4aa9-b2ce-3cfb93861b93"
+        },
+        {
+          "requirement": "It's easy for your customers to correct or update inaccurate or incomplete information.",
+          "description": "Do your best to keep data up to date by putting a data quality process in place, and make it easy for your customers to view (Article 15) and update their personal information for accuracy and completeness. Make sure you can verify the identity of the person requesting the data. You should be able to comply with requests under Article 16 within a month.",
+          "id": "ae315597-6cf3-4bc6-bacc-e9aee78a41d8"
+        },
+        {
+          "requirement": "It's easy for your customers to request to have their personal data deleted.",
+          "description": "People generally have the right to ask you to delete all the personal data you have about them, and you have to honor their request within about a month. There are five grounds on which you can deny the request, such as the exercise of freedom of speech or compliance with a legal obligation. You must also try to verify the identity of the person making the request.",
+          "id": "1a9db627-93ac-45cd-be63-41bb53c2cae2"
+        },
+        {
+          "requirement": "It's easy for your customers to ask you to stop processing their data.",
+          "description": "Your data subjects can request to restrict or stop processing of their data if certain grounds apply, mainly if there's some dispute about the lawfulness of the processing or the accuracy of the data. You are required to honor their request within about a month. While processing is restricted, you're still allowed to keep storing their data. You must notify the data subject before you begin processing their data again.",
+          "id": "290fc7cd-ae78-447f-abde-953b69f2979e"
+        },
+        {
+          "requirement": "It's easy for your customers to receive a copy of their personal data in a format that can be easily transferred to another company.",
+          "description": "This means that you should be able to send their personal data in a commonly readable format (e.g., a spreadsheet) either to them or to a third party they designate. This may seem unfair from a business standpoint in that you may have to turn over your customers' data to a competitor. But from a privacy standpoint, the idea is that people own their data, not you.",
+          "id": "b8b1a1c6-5d04-4359-b62a-ff7b70611d4c"
+        },
+        {
+          "requirement": "It's easy for your customers to object to you processing their data.",
+          "description": "If you're processing their data for the purposes of direct marketing, you have to stop processing it immediately for that purpose. Otherwise, you may be able to challenge their objection if you can demonstrate 'compelling legitimate grounds.'",
+          "id": "966607bb-d121-4568-838c-1344b74b4843"
+        },
+        {
+          "requirement": "If you make decisions about people based on automated processes, you have a procedure to protect their rights.",
+          "description": "Some types of organizations use automated processes to help them make decisions about people that have legal or 'similarly significant' effects. If you think that applies to you, you'll need to set up a procedure to ensure you are protecting their rights, freedoms, and legitimate interests. You need to make it easy for people to request human intervention, to weigh in on decisions, and to challenge decisions you've already made.",
+          "id": "b3f7bfe4-bd26-4a6b-94ff-25a60496405b"
+        }
+      ],
+      "id": "9032b817-358a-4b76-a6a9-9d3a396d2358"
+    }
+  ],
+  "id": "gdpr"
+}

@@ -1,0 +1,1513 @@
+{
+  "category": [
+    {
+      "title": "AC",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "AC-1 POLICY AND PROCEDURES",
+              "id": "4a620ca4-7613-47fa-8b58-f77d126da2c3"
+            },
+            {
+              "requirement": "AC-2 ACCOUNT MANAGEMENT",
+              "id": "40223fab-60e3-471b-bd9a-75676c2fd692"
+            },
+            {
+              "requirement": "AC-3 ACCESS ENFORCEMENT",
+              "id": "f012b056-ac85-4559-85f7-3adb72d68060"
+            },
+            {
+              "requirement": "AC-4 INFORMATION FLOW ENFORCEMENT",
+              "id": "8d0679a7-9674-4191-98e7-c7b1d2631a4d"
+            },
+            {
+              "requirement": "AC-5 SEPARATION OF DUTIES",
+              "id": "caaf7756-e823-4903-be3c-c4ebccf8710b"
+            },
+            {
+              "requirement": "AC-6 LEAST PRIVILEGE",
+              "id": "57cfba93-3629-4334-872e-46254160fee7"
+            },
+            {
+              "requirement": "AC-7 UNSUCCESSFUL LOGON ATTEMPTS",
+              "id": "7ab12d87-0706-43e8-b738-1e91e676ffba"
+            },
+            {
+              "requirement": "AC-8 SYSTEM USE NOTIFICATION",
+              "id": "8afa535e-3a2f-48a6-a73c-5752ba2f6add"
+            },
+            {
+              "requirement": "AC-9 PREVIOUS LOGON (ACCESS) NOTIFICATION",
+              "id": "b6509e36-4ed3-469d-9a8a-05b4b0f9ed61"
+            },
+            {
+              "requirement": "AC-10 CONCURRENT SESSION CONTROL",
+              "id": "1783727e-c9c6-4707-880a-5551115aa788"
+            },
+            {
+              "requirement": "AC-11 SESSION LOCK",
+              "id": "93398345-d6f6-45f1-8fd2-68b8d82ae36e"
+            },
+            {
+              "requirement": "AC-12 SESSION TERMINATION",
+              "id": "7b4d503e-8491-4475-8145-019500b46eb3"
+            },
+            {
+              "requirement": "AC-13 SUPERVISION AND REVIEW—ACCESS CONTROL",
+              "id": "ae84026e-248a-43fb-9bf4-abe987624f84"
+            },
+            {
+              "requirement": "AC-14 PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION",
+              "id": "dd46600c-0371-4386-a22e-6ddad8280175"
+            },
+            {
+              "requirement": "AC-15 AUTOMATED MARKING",
+              "id": "7727790b-b460-408a-8d72-658ec90b10fb"
+            },
+            {
+              "requirement": "AC-16 SECURITY ATTRIBUTES",
+              "id": "3848b6a2-3763-46dc-abaf-a13ae68111d4"
+            },
+            {
+              "requirement": "AC-17 REMOTE ACCESS",
+              "id": "295399a2-2431-4b9f-9d77-c08b318738d9"
+            },
+            {
+              "requirement": "AC-18 WIRELESS ACCESS",
+              "id": "2821c4db-96b0-4641-ae24-43c3bcbc6028"
+            },
+            {
+              "requirement": "AC-19 ACCESS CONTROL FOR MOBILE DEVICES",
+              "id": "f985aafe-73cf-44d7-ad96-e1a553a4cb19"
+            },
+            {
+              "requirement": "AC-20 USE OF EXTERNAL INFORMATION SYSTEMS",
+              "id": "859626b1-9331-45cf-ae39-b7319c14b175"
+            },
+            {
+              "requirement": "AC-21 INFORMATION SHARING",
+              "id": "aa82775c-5850-4a5f-8017-0aa309e1121d"
+            },
+            {
+              "requirement": "AC-22 PUBLICLY ACCESSIBLE CONTENT",
+              "id": "843a9d45-5142-449d-8d3f-918bf76f18e7"
+            },
+            {
+              "requirement": "AC-23 DATA MINING PROTECTION",
+              "id": "bd2fdd83-9bef-47cb-b4bf-98e3e048514b"
+            },
+            {
+              "requirement": "AC-24 ACCESS CONTROL DECISIONS",
+              "id": "d6fb895d-3baa-4e50-aaeb-9b6e5bfd209f"
+            },
+            {
+              "requirement": "AC-25 REFERENCE MONITOR",
+              "id": "987d7177-799d-4465-8b71-629e7d49ee07"
+            }
+          ],
+          "id": "eb85d8c3-48de-425d-9c56-7b03390d0524"
+        }
+      ],
+      "id": "35889251-283e-4361-9956-3a9df2819dc8"
+    },
+    {
+      "title": "AT",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "AT-1 POLICY AND PROCEDURES",
+              "id": "6e51d2a3-58f9-4f53-b5d3-f5d05e0e4046"
+            },
+            {
+              "requirement": "AT-2 LITERACY TRAINING AND AWARENESS",
+              "id": "1fff1f09-aa2f-45e6-9538-12912c29d60a"
+            },
+            {
+              "requirement": "AT-3 ROLE-BASED TRAINING",
+              "id": "268542f1-94d7-4c75-8178-d26420a0f235"
+            },
+            {
+              "requirement": "AT-4 TRAINING RECORDS",
+              "id": "cf47b1cf-d0db-45ff-a4bd-2972fb242663"
+            },
+            {
+              "requirement": "AT-5 CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",
+              "id": "28acd488-7783-4bb6-9cb6-8435799193ee"
+            },
+            {
+              "requirement": "TRAINING FEEDBACK",
+              "id": "8736d09f-d7be-46a5-8711-5c7287abbfee"
+            }
+          ],
+          "id": "f92ba1da-433f-43a6-9314-bd85ff577548"
+        }
+      ],
+      "id": "75b39e51-9ce0-4aac-aeb2-930a1cd0e277"
+    },
+    {
+      "title": "AU",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "AU-1 POLICY AND PROCEDURES",
+              "id": "8972163b-8398-4723-b7f3-3985f0fa1133"
+            },
+            {
+              "requirement": "AU-2 EVENT LOGGING",
+              "id": "8d64eff3-a9d6-47d8-bdef-9d830857a24b"
+            },
+            {
+              "requirement": "AU-3 CONTENT OF AUDIT RECORDS",
+              "id": "918987b0-aca7-4112-b95a-535047253d12"
+            },
+            {
+              "requirement": "AU-4 AUDIT LOG STORAGE CAPACITY",
+              "id": "6adc5987-02e6-4d76-8a30-7576f67562f3"
+            },
+            {
+              "requirement": "AU-5 RESPONSE TO AUDIT LOGGING PROCESS FAILURES",
+              "id": "3ce3cbb8-f61e-4d0c-b728-f74d8806bb74"
+            },
+            {
+              "requirement": "AU-6 AUDIT REVIEW, ANALYSIS, AND REPORTING",
+              "id": "b4be5c9c-c64b-497e-a69c-d3a611180644"
+            },
+            {
+              "requirement": "AU-7 AUDIT RECORD REDUCTION AND REPORT GENERATION",
+              "id": "0d5baff3-ea1f-44b7-858f-50907c935a86"
+            },
+            {
+              "requirement": "AU-8 TIME STAMPS",
+              "id": "d47a6982-50bc-409a-9cca-9630f60c0631"
+            },
+            {
+              "requirement": "AU-9 PROTECTION OF AUDIT INFORMATION",
+              "id": "143ea689-8057-41f5-9c7f-ce0ee66325ff"
+            },
+            {
+              "requirement": "AU-10 NON-REPUDIATION",
+              "id": "eda686c9-fc22-4a7d-a997-8a588dc9c7eb"
+            },
+            {
+              "requirement": "AU-11 AUDIT RECORD RETENTION",
+              "id": "96fffa84-4db5-4c5a-ba4e-387a2c30a6e2"
+            },
+            {
+              "requirement": "AU-12 AUDIT GENERATION",
+              "id": "a2d4f0b1-b825-4d3f-bd51-fc13315a8ed4"
+            },
+            {
+              "requirement": "AU-13 MONITORING FOR INFORMATION DISCLOSURE",
+              "id": "0e2440ee-8a59-480d-8e6a-8f15b1821ae8"
+            },
+            {
+              "requirement": "AU-14 SESSION AUDIT",
+              "id": "604a50ec-1a4d-4895-af62-00c441bf1204"
+            },
+            {
+              "requirement": "AU-15 ALTERNATIVE AUDIT LOGGING CAPABILITY",
+              "id": "d8252ecb-b0f4-41cf-97b0-be0df8bbc4f3"
+            },
+            {
+              "requirement": "AU-16 CROSS-ORGANIZATIONAL AUDIT LOGGING",
+              "id": "65248220-12a2-4c88-904f-5a38d5b0ed1d"
+            }
+          ],
+          "id": "c6976f4b-6811-4c3f-a3bf-2e690632e9ec"
+        }
+      ],
+      "id": "04fc22ac-5ebf-4716-a207-1b3ee2a147f8"
+    },
+    {
+      "title": "CA",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "CA-1 POLICIES AND PROCEDURES",
+              "id": "adaa46db-79de-43ca-bd64-de45fa087cbb"
+            },
+            {
+              "requirement": "CA-2 CONTROL ASSESSMENTS",
+              "id": "7043643f-d4ac-4eb0-b51a-61b14c0a3b4b"
+            },
+            {
+              "requirement": "CA-3 INFORMATION EXCHANGE",
+              "id": "93a4e39c-6c11-4147-b5de-91cb1e7aae42"
+            },
+            {
+              "requirement": "CA-4 SECURITY CERTIFICATION",
+              "id": "e5d26183-4ab0-4ff6-99f8-c66b75058efc"
+            },
+            {
+              "requirement": "CA-5 PLAN OF ACTION AND MILESTONES",
+              "id": "872b356d-477e-4e2e-a759-6fd908258a47"
+            },
+            {
+              "requirement": "CA-6 AUTHORIZATION",
+              "id": "2c4c79d4-8361-4042-8fcf-9e45eda05286"
+            },
+            {
+              "requirement": "CA-7 CONTINUOUS MONITORING",
+              "id": "16416690-8e50-4b2f-9355-427cef6860d3"
+            },
+            {
+              "requirement": "CA-8 PENETRATION TESTING",
+              "id": "79a19a31-6ff7-4153-ba33-ffc7653fd10d"
+            },
+            {
+              "requirement": "CA-9 INTERNAL SYSTEM CONNECTIONS",
+              "id": "3d76a717-f6fc-4083-b4f6-c5cbdccbce42"
+            }
+          ],
+          "id": "da244c4e-f732-44e0-b9b6-a35485518a96"
+        }
+      ],
+      "id": "516f58ce-7845-4c41-9a7f-e6a409aeeea3"
+    },
+    {
+      "title": "CM",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "CM-1 POLICY AND PROCEDURES",
+              "id": "5b729264-fd75-4adf-94ae-465d391d50cc"
+            },
+            {
+              "requirement": "CM-2 BASELINE CONFIGURATION",
+              "id": "b8d27d4d-4fbf-4076-a1c3-82770af6a88a"
+            },
+            {
+              "requirement": "CM-3 CONFIGURATION CHANGE CONTROL",
+              "id": "adad1d0f-0dec-4a43-a74e-f97e7e28c8ed"
+            },
+            {
+              "requirement": "CM-4 SECURITY IMPACT ANALYSIS",
+              "id": "6c0c4ab1-6d3f-47c9-89c8-d28b217320bc"
+            },
+            {
+              "requirement": "CM-5 ACCESS RESTRICTIONS FOR CHANGE",
+              "id": "e17ce7cf-ea13-4376-a64c-3ca4358a851e"
+            },
+            {
+              "requirement": "CM-6 CONFIGURATION SETTINGS",
+              "id": "aea2f662-d935-4ddc-8d19-bbff47926e55"
+            },
+            {
+              "requirement": "CM-7 LEAST FUNCTIONALITY",
+              "id": "faaf8b83-7f95-418a-9a3d-fa1030576ee8"
+            },
+            {
+              "requirement": "CM-8 SYSTEM COMPONENT INVENTORY",
+              "id": "952c3e19-05ae-4b99-a723-db0abffd3de7"
+            },
+            {
+              "requirement": "CM-9 CONFIGURATION MANAGEMENT PLAN",
+              "id": "939c56c6-2a88-43ab-9d65-386b5e01e0e0"
+            },
+            {
+              "requirement": "CM-10 SOFTWARE USAGE RESTRICTIONS",
+              "id": "fd9b3734-5a35-4990-8b85-70c09a0cef6d"
+            },
+            {
+              "requirement": "CM-11 USER-INSTALLED SOFTWARE",
+              "id": "8ad9135c-0c9c-4363-963b-875f8610815a"
+            },
+            {
+              "requirement": "CM-12 INFORMATION LOCATION",
+              "id": "f8ab3da1-2690-4522-b3aa-823546345d2d"
+            },
+            {
+              "requirement": "CM-13 DATA ACTION MAPPING",
+              "id": "5d08a439-2a9d-4170-8a98-34160b0ef766"
+            },
+            {
+              "requirement": "CM-14 SIGNED COMPONENTS",
+              "id": "705e532f-e4fd-404c-968c-663071eb1bc0"
+            }
+          ],
+          "id": "7ff81718-5425-477f-a45d-2a8c07bb3f4a"
+        }
+      ],
+      "id": "05e79375-1e1b-4357-afa1-02426cca2d75"
+    },
+    {
+      "title": "CP",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "CP-1 POLICY AND PROCEDURES",
+              "id": "2d786321-e180-4433-950f-ac76e93eeeef"
+            },
+            {
+              "requirement": "CP-2 CONTINGENCY PLAN",
+              "id": "80cd178d-ac58-4b9d-87c9-df6ae7b7d30f"
+            },
+            {
+              "requirement": "CP-3 CONTINGENCY TRAINING",
+              "id": "4175d500-0f65-496d-b8ec-cd7d48dba349"
+            },
+            {
+              "requirement": "CP-4 CONTINGENCY PLAN TESTING",
+              "id": "fc8771f1-0b0e-4d5d-bbdf-abbf5dd09ba5"
+            },
+            {
+              "requirement": "CP-5 CONTINGENCY PLAN UPDATE",
+              "id": "f61be8e4-d514-4681-b238-4eeae29189e2"
+            },
+            {
+              "requirement": "CP-6 ALTERNATE STORAGE SITE",
+              "id": "e2783d02-25ec-4b6e-af42-1c1ba6c3f570"
+            },
+            {
+              "requirement": "CP-7 ALTERNATE PROCESSING SITE",
+              "id": "b5872d6d-8a66-408b-a211-5bc29a1e6930"
+            },
+            {
+              "requirement": "CP-8 TELECOMMUNICATIONS SERVICES",
+              "id": "1ed013ee-6ff5-4b37-903d-269a4410ffd1"
+            },
+            {
+              "requirement": "CP-9 SYSTEM BACKUP",
+              "id": "3c105ee0-31ca-43b0-84bd-917f05b1ae20"
+            },
+            {
+              "requirement": "CP-10 SYSTEM RECOVERY AND RECONSTITUTION",
+              "id": "6bfa66aa-00c4-417c-b014-d3b2cd2f4d52"
+            },
+            {
+              "requirement": "CP-11 ALTERNATE COMMUNICATIONS PROTOCOLS",
+              "id": "d03a6313-797a-4d58-a19d-44f2b73bc3ef"
+            },
+            {
+              "requirement": "CP-12 SAFE MODE",
+              "id": "fb5d5a9e-71a6-485f-9f28-c84a8abe37c5"
+            },
+            {
+              "requirement": "CP-13 ALTERNATE SECURITY MECHANISMS",
+              "id": "832deaf8-6862-4f01-b415-35ea2954af93"
+            }
+          ],
+          "id": "0b519e92-4d02-45bc-ae5e-bc121231831c"
+        }
+      ],
+      "id": "78a3a1b7-568d-4d23-9161-cef39c760582"
+    },
+    {
+      "title": "IA",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "IA-1 POLICY AND PROCEDURES",
+              "id": "41b8637d-f8ed-4ce8-b257-6a408a77749b"
+            },
+            {
+              "requirement": "IA-2 IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS)",
+              "id": "6cd6a205-35d4-49e6-af12-f1cccc5ddd40"
+            },
+            {
+              "requirement": "IA-3 DEVICE IDENTIFICATION AND AUTHENTICATION",
+              "id": "744250a2-f569-432d-84f2-4c4ae7685134"
+            },
+            {
+              "requirement": "IA-4 IDENTIFIER MANAGEMENT",
+              "id": "ca883f43-85ad-4d87-bfc3-92df6cb71df6"
+            },
+            {
+              "requirement": "IA-5 AUTHENTICATOR MANAGEMENT",
+              "id": "5638d544-e5c5-44be-ae34-2198eca53ec6"
+            },
+            {
+              "requirement": "IA-6 AUTHENTICATOR FEEDBACK",
+              "id": "5e71c847-b6b5-449d-8a81-b686a04d951f"
+            },
+            {
+              "requirement": "IA-7 CRYPTOGRAPHIC MODULE AUTHENTICATION",
+              "id": "02b7cfb5-7efa-42ed-83aa-b84eef0bb8ba"
+            },
+            {
+              "requirement": "IA-8 IDENTIFICATION AND AUTHENTICATION (NON-ORGANIZATIONAL USERS)",
+              "id": "971499ba-44bf-4278-9e11-ce6074db63e5"
+            },
+            {
+              "requirement": "IA-9 SERVICE IDENTIFICATION AND AUTHENTICATION",
+              "id": "f2c957b1-77e0-4f77-8ac9-b7c76526becb"
+            },
+            {
+              "requirement": "IA-10 ADAPTIVE AUTHENTICATION",
+              "id": "1ed94e21-0226-4fd7-8bfa-895ff63bab50"
+            },
+            {
+              "requirement": "IA-11 RE-AUTHENTICATION",
+              "id": "e49b598c-7ecb-4801-bf26-e1d0391d8eff"
+            },
+            {
+              "requirement": "IA-12 IDENTITY PROOFING",
+              "id": "5fd9fd94-7245-46b9-8c9b-4ae91a8ef3f3"
+            }
+          ],
+          "id": "9f1c5c89-7194-4dd0-918d-6c614fa62898"
+        }
+      ],
+      "id": "5e989037-cdcc-445e-a55b-96d6e9054431"
+    },
+    {
+      "title": "IR",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "IR-1 POLICY AND PROCEDURES",
+              "id": "4117c901-dc89-48ad-86b8-61c893d5d952"
+            },
+            {
+              "requirement": "IR-2 INCIDENT RESPONSE TRAINING",
+              "id": "186a6afa-127e-4560-8d7b-499f03ed6dc5"
+            },
+            {
+              "requirement": "IR-3 INCIDENT RESPONSE TESTING",
+              "id": "e44e2610-b44a-46a4-b1f2-3eeb558173fa"
+            },
+            {
+              "requirement": "IR-4 INCIDENT HANDLING",
+              "id": "f75dfcbd-c460-41c3-9397-65396c634849"
+            },
+            {
+              "requirement": "IR-5 INCIDENT MONITORING",
+              "id": "30b45a0c-2951-465f-9ef2-866e82b48581"
+            },
+            {
+              "requirement": "IR-6 INCIDENT REPORTING",
+              "id": "bd922354-8cc7-4643-9410-4d8c99229230"
+            },
+            {
+              "requirement": "IR-7 INCIDENT RESPONSE ASSISTANCE",
+              "id": "77123f27-9056-4e7e-a190-b7b480a0e2c7"
+            },
+            {
+              "requirement": "IR-8 INCIDENT RESPONSE PLAN",
+              "id": "e57e663b-28d7-4abb-af99-87220859ca72"
+            },
+            {
+              "requirement": "IR-9 INFORMATION SPILLAGE RESPONSE",
+              "id": "4093ac6e-2163-4f8b-b98a-d07deb708c14"
+            },
+            {
+              "requirement": "IR-10 INTEGRATED INFORMATION SECURITY ANALYSIS TEAM",
+              "id": "8aee8992-6cfd-4b99-95c9-bc2cb15f84d0"
+            }
+          ],
+          "id": "e85c5b90-0200-46e9-ae7f-d6a74ad052b0"
+        }
+      ],
+      "id": "f4bca92e-e339-4924-b33f-2cba69fa61bc"
+    },
+    {
+      "title": "MA",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "MA-1 POLICY AND PROCEDURES",
+              "id": "c3924203-2592-4eb9-885b-ae7602f110f0"
+            },
+            {
+              "requirement": "MA-2 CONTROLLED MAINTENANCE",
+              "id": "23f8e334-1b81-4872-a3bd-1209384286cd"
+            },
+            {
+              "requirement": "MA-3 MAINTENANCE TOOLS",
+              "id": "bfe87070-d425-40be-b29c-6286364c265c"
+            },
+            {
+              "requirement": "MA-4 NON-LOCAL MAINTENANCE",
+              "id": "2344bb44-22db-4c89-b016-6e8d1ad2e622"
+            },
+            {
+              "requirement": "MA-5 MAINTENANCE PERSONNEL",
+              "id": "070d00c8-fa34-4603-9b48-9f58adec04e6"
+            },
+            {
+              "requirement": "MA-6 TIMELY MAINTENANCE",
+              "id": "a7ab4489-56a9-4a35-9932-70d22274f255"
+            },
+            {
+              "requirement": "MA-7 FIELD MAINTENANCE",
+              "id": "4c86cf30-7036-4dc3-9525-0bd4b8a5757b"
+            }
+          ],
+          "id": "6f361a5a-01de-4e1d-824d-0ea7b1b6dc0e"
+        }
+      ],
+      "id": "292589dd-1097-4f92-880f-947813b4abec"
+    },
+    {
+      "title": "MP",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "MP-1 POLICY AND PROCEDURES",
+              "id": "7224f5af-0a25-4545-a75a-b2b77e4c446e"
+            },
+            {
+              "requirement": "MP-2 MEDIA ACCESS",
+              "id": "2b11692b-ffa5-4c0a-997b-76e4a7bc589e"
+            },
+            {
+              "requirement": "MP-3 MEDIA MARKING",
+              "id": "327775b5-748b-41a1-9227-c295b5d5b223"
+            },
+            {
+              "requirement": "MP-4 MEDIA STORAGE",
+              "id": "5807cac0-671a-4fac-aec7-e6ef55d66363"
+            },
+            {
+              "requirement": "MP-5 MEDIA TRANSPORT",
+              "id": "58296f39-13e3-4c7f-b8b2-12ad005d1d90"
+            },
+            {
+              "requirement": "MP-6 MEDIA SANITIZATION AND DISPOSAL",
+              "id": "3ce28c6b-6c30-4480-96a9-9b482d5085e4"
+            },
+            {
+              "requirement": "MP-7 MEDIA USE",
+              "id": "394c45b0-bd70-428b-8151-5ec2a02d11e3"
+            },
+            {
+              "requirement": "MP-8 MEDIA DOWNGRADING",
+              "id": "2eb4d36b-13fb-43ed-aedd-bca69a8742da"
+            }
+          ],
+          "id": "6dba0f16-1076-4cdb-b972-2d0f48fa82b3"
+        }
+      ],
+      "id": "1b8168b4-775c-4fb8-babd-c894751dc35d"
+    },
+    {
+      "title": "PE",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "PE-1 POLICY AND PROCEDURES",
+              "id": "bd184c2f-2ff4-4e83-9062-db6ca51dde50"
+            },
+            {
+              "requirement": "PE-2 PHYSICAL ACCESS AUTHORIZATIONS",
+              "id": "9b15780e-cec9-453e-a4fe-8dbef48a04d2"
+            },
+            {
+              "requirement": "PE-3 PHYSICAL ACCESS CONTROL",
+              "id": "1f8f2240-94b5-461e-960a-e437b7fc63a7"
+            },
+            {
+              "requirement": "PE-4 ACCESS CONTROL FOR TRANSMISSION MEDIUM",
+              "id": "dca41d20-6b79-4ed7-9d09-01a3beaa82f4"
+            },
+            {
+              "requirement": "PE-5 ACCESS CONTROL FOR OUTPUT DEVICES",
+              "id": "388ab0ec-7932-4820-9961-aa22d0d41188"
+            },
+            {
+              "requirement": "PE-6 MONITORING PHYSICAL ACCESS",
+              "id": "50884a7c-c064-4893-9a56-2f56e05fcff3"
+            },
+            {
+              "requirement": "PE-7 VISITOR CONTROL",
+              "id": "1edf6fa7-3e81-4a64-a309-0ae6cd7d893d"
+            },
+            {
+              "requirement": "PE-8 EMERGENCY SHUTOFF",
+              "id": "018986b4-3237-492a-b214-9c232851198b"
+            },
+            {
+              "requirement": "PE-9 POWER EQUIPMENT AND CABLING",
+              "id": "c0132dcc-cea5-412e-abf7-af68556724e0"
+            },
+            {
+              "requirement": "PE-10 EMERGENCY POWER",
+              "id": "99f5b215-23b7-48fb-abb9-5c031dec2672"
+            },
+            {
+              "requirement": "PE-11 EMERGENCY LIGHTING",
+              "id": "6f2f5d80-71f7-4fa7-97e8-3f59f9954b61"
+            },
+            {
+              "requirement": "PE-12 EMERGENCY SHUTOFF",
+              "id": "46be7c16-e554-4cc6-9530-5f42fc0b97eb"
+            },
+            {
+              "requirement": "PE-13 FIRE PROTECTION",
+              "id": "4a419875-f142-4186-a515-d7567ef6d612"
+            },
+            {
+              "requirement": "PE-14 TEMPEST PROTECTION",
+              "id": "dac441d3-8340-4ebf-8cc4-4c26cdc31239"
+            },
+            {
+              "requirement": "PE-15 WATER DAMAGE PROTECTION",
+              "id": "8fa2776f-b33b-4764-9542-a8b8be48d70a"
+            },
+            {
+              "requirement": "PE-16 DELIVERY AND REMOVAL",
+              "id": "5b175718-6fc6-4fef-b400-c404d898dcd4"
+            },
+            {
+              "requirement": "PE-17 ALTERNATE WORK SITE",
+              "id": "a9679b4e-8e23-434e-bbad-b5e0bb6b4ce2"
+            },
+            {
+              "requirement": "PE-18 LOCATION OF SYSTEM COMPONENTS",
+              "id": "de05b538-7409-49ff-8b29-53098f3c4d02"
+            },
+            {
+              "requirement": "PE-19 INFORMATION LEAKAGE",
+              "id": "9483ca3b-e69c-4f35-9548-e810b7f4b87c"
+            },
+            {
+              "requirement": "PE-20 ASSET MONITORING AND TRACKING",
+              "id": "24d3f506-49f4-45b9-b681-bc430dbe9b51"
+            },
+            {
+              "requirement": "PE-21 ELECTROMAGNETIC PULSE PROTECTION",
+              "id": "53432954-2c6a-427b-be3e-3705a2f7a637"
+            },
+            {
+              "requirement": "PE-22 COMPONENT MARKING",
+              "id": "aeb199ea-3bf6-465d-a6c5-6b515191c8ae"
+            },
+            {
+              "requirement": "PE-23 FACILITY LOCATION",
+              "id": "a09a7d70-7d6a-46a3-b6f9-aa1bb62bc020"
+            }
+          ],
+          "id": "abef2dc4-2ef6-4fc2-938b-01b290a5d777"
+        }
+      ],
+      "id": "35a599a7-5335-4b93-864f-766c4e7dd4bb"
+    },
+    {
+      "title": "PL",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "PL-1 POLICY AND PROCEDURES",
+              "id": "84387325-3b9a-41aa-8ff1-c0ba8d5fb802"
+            },
+            {
+              "requirement": "PL-2 SYSTEM SECURITY AND PRIVACY PLANS",
+              "id": "e870f8e2-d5b9-47fb-8f8c-61521716c703"
+            },
+            {
+              "requirement": "PL-3 SYSTEM SECURITY PLAN UPDATE",
+              "id": "65d19689-eb25-454e-a657-1fc517693c1e"
+            },
+            {
+              "requirement": "PL-4 RULES OF BEHAVIOR",
+              "id": "f28144b9-af1d-4153-94a6-62a17cbcdf05"
+            },
+            {
+              "requirement": "PL-5 PRIVACY IMPACT ASSESSMENT",
+              "id": "58f38568-ad0c-4d13-8dc5-f0bd1d09b524"
+            },
+            {
+              "requirement": "PL-6 SECURITY-RELATED ACTIVITY PLANNING",
+              "id": "1022b30e-0957-473d-8c5c-29a47eedaf22"
+            },
+            {
+              "requirement": "PL-7 CONCEPT OF OPERATIONS",
+              "id": "70a0c35e-46da-43c1-b105-b731091cbc85"
+            },
+            {
+              "requirement": "PL-8 SECURITY AND PRIVACY ARCHITECTURES",
+              "id": "90c9f60f-21a1-4f1d-b722-0ce7b0306938"
+            },
+            {
+              "requirement": "PL-9 CENTRAL MANAGEMENT",
+              "id": "c8c11cc4-6905-499d-8814-fdba0c8b364e"
+            },
+            {
+              "requirement": "PL-10 BASELINE SELECTION",
+              "id": "e720d24e-6902-44ab-ab91-b3356633fe46"
+            },
+            {
+              "requirement": "PL-11 BASELINE TAILORING",
+              "id": "88bce8ef-82be-4b8c-9bb8-e121edd8b69a"
+            }
+          ],
+          "id": "38cb4a2e-3531-4300-a028-e1c7e1dd00af"
+        }
+      ],
+      "id": "486964ff-de8a-46f1-b80a-bd8548d3979e"
+    },
+    {
+      "title": "PM",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "PM-1 INFORMATION SECURITY PROGRAM PLAN",
+              "id": "67b8f197-f22c-4d50-86fe-b1fb01624821"
+            },
+            {
+              "requirement": "PM-2 INFORMATION SECURITY PROGRAM LEADERSHIP ROLE",
+              "id": "117f026f-2ee6-470c-af21-7a1d6ac743c6"
+            },
+            {
+              "requirement": "PM-3 INFORMATION SECURITY AND PRIVACY RESOURCES",
+              "id": "73fa2c22-ac8e-40b0-a803-75957be8e637"
+            },
+            {
+              "requirement": "PM-4 PLAN OF ACTION AND MILESTONES PROCESS",
+              "id": "55fafe2e-496c-43a5-8418-1b9acae73b2b"
+            },
+            {
+              "requirement": "PM-5 SYSTEM INVENTORY",
+              "id": "ee195387-51f6-4c9c-9746-71b246ad264b"
+            },
+            {
+              "requirement": "PM-6 MEASURES OF PERFORMANCE",
+              "id": "48f9cd4e-86c3-4b77-99fe-f8ef64319e18"
+            },
+            {
+              "requirement": "PM-7 ENTERPRISE ARCHITECTURE",
+              "id": "d250e83b-b705-4650-ba23-b38fe4ca4ebb"
+            },
+            {
+              "requirement": "PM-8 CRITICAL INFRASTRUCTURE PLAN",
+              "id": "6a4e91da-e280-408e-95ab-e0f3311ac05a"
+            },
+            {
+              "requirement": "PM-9 RISK MANAGEMENT STRATEGY",
+              "id": "b3c13f92-1ac6-4e17-b1cb-51912f4bd27e"
+            },
+            {
+              "requirement": "PM-10 AUTHORIZATION PROCESS",
+              "id": "e75ac2f1-d6f1-46f6-bfd2-135e2e9cc241"
+            },
+            {
+              "requirement": "PM-11 MISSION AND BUSINESS PROCESS DEFINITION",
+              "id": "7cd45cb0-cbf2-49bd-ac0d-5ac0ec370569"
+            },
+            {
+              "requirement": "PM-12 INSIDER THREAT PROGRAM",
+              "id": "5b37fdbc-c4b1-41d2-b3d5-b47854ec6902"
+            },
+            {
+              "requirement": "PM-13 SECURITY AND PRIVACY WORKFORCE",
+              "id": "ef10b078-9ad7-4330-8154-b585d6286d1c"
+            },
+            {
+              "requirement": "PM-14 TESTING, TRAINING, AND MONITORING",
+              "id": "b42aa1b4-7dbb-4c94-b54e-34730d8c80d3"
+            },
+            {
+              "requirement": "PM-15 SECURITY AND PRIVACY GROUPS AND ASSOCIATIONS",
+              "id": "2014dd6f-63d6-4181-838c-fa71ff3911ac"
+            },
+            {
+              "requirement": "PM-16 THREAT AWARENESS PROGRAM",
+              "id": "f567e9e9-a23e-4acd-8240-b780c932e9f9"
+            },
+            {
+              "requirement": "PM-17 PROTECTING CONTROLLED UNCLASSIFIED INFORMATION ON EXTERNAL SYSTEMS",
+              "id": "562443a1-9587-4a95-818b-da03fe3ac8b5"
+            },
+            {
+              "requirement": "PM-18 PRIVACY PROGRAM PLAN",
+              "id": "d03e913e-6dd9-41c6-a54b-8a29b5a09392"
+            },
+            {
+              "requirement": "PM-19 PRIVACY PROGRAM LEADERSHIP ROLE",
+              "id": "e14ecf45-141f-449b-bc7e-e5cb6ddd4c05"
+            },
+            {
+              "requirement": "PM-20 DISSEMINATION OF PRIVACY PROGRAM INFORMATION",
+              "id": "d6ca9515-2da9-4107-82ff-5d82e9a9ce76"
+            },
+            {
+              "requirement": "PM-21 ACCOUNTING OF DISCLOSURES",
+              "id": "08a3d565-2683-4186-a042-d4a2e8409b7a"
+            },
+            {
+              "requirement": "PM-22 PERSONALLY IDENTIFIABLE INFORMATION QUALITY MANAGEMENT",
+              "id": "70ced69f-9b49-4049-a4cc-3459e11e70a0"
+            },
+            {
+              "requirement": "PM-23 DATA GOVERNANCE BODY",
+              "id": "3fa78c55-4044-4c1a-a247-61aebf75a37e"
+            },
+            {
+              "requirement": "PM-24 DATA INTEGRITY BOARD",
+              "id": "ed3208bd-360f-421d-847c-92a68b8e75ff"
+            },
+            {
+              "requirement": "PM-25 MINIMIZATION OF PERSONALLY IDENTIFIABLE INFORMATION USED IN TESTING, TRAINING, AND RESEARCH",
+              "id": "e04ba92c-f4b2-43f6-a69c-4f3f85e201f0"
+            },
+            {
+              "requirement": "PM-26 COMPLAINT MANAGEMENT",
+              "id": "57e8a5c8-4f7f-4e4f-9cdd-16987196f964"
+            },
+            {
+              "requirement": "PM-27 PRIVACY REPORTING",
+              "id": "dbd1dae1-ad5d-47e1-a917-668ecbe7344e"
+            },
+            {
+              "requirement": "PM-28 RISK FRAMING",
+              "id": "3e154828-69e9-409d-995b-0e856e7599a1"
+            },
+            {
+              "requirement": "PM-29 RISK MANAGEMENT PROGRAM LEADERSHIP ROLE",
+              "id": "7a46e753-7b17-40b0-a7db-70352f6d459a"
+            },
+            {
+              "requirement": "PM-30 SUPPLY CHAIN RISK MANAGEMENT STRATEGY",
+              "id": "aa2a119f-3b82-457e-bd9e-9f7d7f993de8"
+            },
+            {
+              "requirement": "PM-31 CONTINOUS MONITORING STRATEGY",
+              "id": "7325de8a-b14d-46fa-b6f1-c350669850eb"
+            },
+            {
+              "requirement": "PM-32 PURPOSING",
+              "id": "4f3927e3-b536-4230-96f7-5ad745181cf9"
+            }
+          ],
+          "id": "ad88ef58-8147-48ae-9a17-b0d5db95a337"
+        }
+      ],
+      "id": "3bd765ec-018d-4a23-b6a7-96b5facb8294"
+    },
+    {
+      "title": "PS",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "PS-1 POLICY AND PROCEDURES",
+              "id": "205ed19f-67aa-4d60-b336-495db12c5f5b"
+            },
+            {
+              "requirement": "PS-2 POSITION RISK DESIGNATION",
+              "id": "5e71512b-cc12-4f92-b25b-0d51ed2f69b0"
+            },
+            {
+              "requirement": "PS-3 PERSONNEL SCREENING",
+              "id": "31b6b373-6f41-45e6-9a47-1cffa84655e5"
+            },
+            {
+              "requirement": "PS-4 PERSONNEL TERMINATION",
+              "id": "ce2f4130-bcd8-4b5e-90e2-668bb79e4b3d"
+            },
+            {
+              "requirement": "PS-5 PERSONNEL TRANSFER",
+              "id": "a8cd0bbe-d327-4f70-a063-637871ddbb05"
+            },
+            {
+              "requirement": "PS-6 ACCESS AGREEMENTS",
+              "id": "01a2515b-0168-4aa5-bf0c-76c3c72633a4"
+            },
+            {
+              "requirement": "PS-7 EXTERNAL PERSONNEL SECURITY",
+              "id": "bc5f5a1d-4279-4795-899f-2ad1e9e74fb9"
+            },
+            {
+              "requirement": "PS-8 PERSONNEL SANCTIONS",
+              "id": "5e7e1ccb-1cea-44c2-ab6f-aefdc37906e3"
+            },
+            {
+              "requirement": "PS-9 POSITION DESCRIPTIONS",
+              "id": "6cfdd9e3-e607-4a6d-a1a6-dbf67d132488"
+            }
+          ],
+          "id": "76c0fe13-0ec0-4c88-a489-18701d355f8e"
+        }
+      ],
+      "id": "80b2f66a-caff-469f-afa7-b7a401f56452"
+    },
+    {
+      "title": "PT",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "PT-1 POLICY AND PROCEDURES",
+              "id": "e5f9151b-dafc-4aea-970d-28f452131ef2"
+            },
+            {
+              "requirement": "PT-2 AUTHORITY TO PROCESS PERSONALLY IDENTIFIABLE INFORMATION",
+              "id": "d94884c4-e98e-481e-8af3-6e4d2e5899b6"
+            },
+            {
+              "requirement": "PT-3 PERSONALLY IDENTIFIABLE INFORMATION PROCESSING PURPOSES",
+              "id": "49b20943-668a-4f8b-a031-124abf665070"
+            },
+            {
+              "requirement": "PT-4 CONSENT",
+              "id": "6130b2f7-6184-4eb6-b473-ffcd86f28633"
+            },
+            {
+              "requirement": "PT-5 PRIVACY NOTICE",
+              "id": "058d5c01-4776-44c9-90ce-52b225768245"
+            },
+            {
+              "requirement": "PT-6 SYSTEMS OF RECORDS NOTICE",
+              "id": "8e1e41c0-b065-4ab1-83a8-cd0f48477629"
+            },
+            {
+              "requirement": "PT-7 SPECIFIC CATEGORY OF PERSONALLY IDENTIFIABLE INFORMATION",
+              "id": "f06a5b25-159b-45b7-b5e8-e9af0c1df44c"
+            },
+            {
+              "requirement": "PT-8 COMPUTER MATCHING REQUIREMENTS",
+              "id": "8568f4da-4f0d-459c-8c0f-a56255266df7"
+            }
+          ],
+          "id": "670b3a7a-8446-4a9d-8188-75d01e3db511"
+        }
+      ],
+      "id": "73c5b223-5220-462e-9cda-228f9a2f017c"
+    },
+    {
+      "title": "RA",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "RA-1 POLICY AND PROCEDURES",
+              "id": "ae92efc0-e782-4625-a22d-627bdd218c5d"
+            },
+            {
+              "requirement": "RA-2 SECURITY CATEGORIZATION",
+              "id": "8d85e2a2-d5f6-433b-9b2d-9a95182eaae0"
+            },
+            {
+              "requirement": "RA-3 RISK ASSESSMENT",
+              "id": "1412601b-7f8f-4e58-858c-1daa73d4bd53"
+            },
+            {
+              "requirement": "RA-4 RISK ASSESSMENT UPDATE",
+              "id": "6c856da5-dd93-40f6-a941-6fc7d26a80a8"
+            },
+            {
+              "requirement": "RA-5 VULNERABILITY MONITORING AND SCANNING",
+              "id": "6bb9e6e0-37b1-4cde-a766-fe2db235ca68"
+            },
+            {
+              "requirement": "RA-6 TECHNICAL SURVEILLANCE COUNTERMEASURES SURVEY",
+              "id": "a6b0c154-e56c-4f3c-8b02-d45826673831"
+            },
+            {
+              "requirement": "RA-7 RISK RESPONSE",
+              "id": "eea39e85-9be1-443b-8b91-a7cccd2023da"
+            },
+            {
+              "requirement": "RA-8 PRIVACY IMPACT ASSESSMENT",
+              "id": "596908ff-7e77-4da1-b005-b55afec50b8b"
+            },
+            {
+              "requirement": "RA-9 CRITICALITY ANALYSIS",
+              "id": "58d9733c-52e1-4319-ab93-45d27f46f230"
+            },
+            {
+              "requirement": "RA-10 THREAT HUNTING",
+              "id": "e60b8935-c2ab-4217-837c-17397a5a4ddb"
+            }
+          ],
+          "id": "2d4c0ad5-3ba3-416c-b89a-dcf06ef1ffd9"
+        }
+      ],
+      "id": "fdadecaa-f0b0-47f9-a20c-d5f571a874ca"
+    },
+    {
+      "title": "SA",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "SA-1 POLICY AND PROCEDURES",
+              "id": "50c508f4-2837-44a3-9029-008adcf3aac2"
+            },
+            {
+              "requirement": "SA-2 ALLOCATION OF RESOURCES",
+              "id": "1f17bc01-634f-4d83-88b6-01cc2985227f"
+            },
+            {
+              "requirement": "SA-3 LIFE CYCLE SUPPORT",
+              "id": "84834cf7-20e0-4602-b5e4-98c403053cb8"
+            },
+            {
+              "requirement": "SA-4 ACQUISITION PROCESS",
+              "id": "d710ea08-0bd3-4e38-898d-cc90c00fd669"
+            },
+            {
+              "requirement": "SA-5 INFORMATION SYSTEM DOCUMENTATION",
+              "id": "bdd93466-2719-40c9-8dae-4bff99da892a"
+            },
+            {
+              "requirement": "SA-6 SOFTWARE USAGE RESTRICTIONS",
+              "id": "66a99fb6-4e0e-43eb-8800-1cfedeba4b97"
+            },
+            {
+              "requirement": "SA-7 USER-INSTALLED SOFTWARE",
+              "id": "32680a37-bc18-4730-bc84-b7231ab11426"
+            },
+            {
+              "requirement": "SA-8 SECURITY ENGINEERING PRINCIPLES",
+              "id": "6402017e-4fed-4343-9ba0-ba11c29b96c0"
+            },
+            {
+              "requirement": "SA-9 EXTERNAL INFORMATION SYSTEM SERVICES",
+              "id": "ef9e6713-cdc0-46b9-98df-cf34deb6c4e7"
+            },
+            {
+              "requirement": "SA-10 DEVELOPER CONFIGURATION MANAGEMENT",
+              "id": "f208f67c-66a5-4c49-94ed-48719e44eefc"
+            },
+            {
+              "requirement": "SA-11 DEVELOPER SECURITY TESTING AND EVALUATION",
+              "id": "64e33733-a533-4f6e-8ef8-18d74d41cfcb"
+            },
+            {
+              "requirement": "SA-12 SUPPLY CHAIN PROTECTION",
+              "id": "89a7519d-e4dd-44ea-a6c4-3dd36428053a"
+            },
+            {
+              "requirement": "SA-13 TRUSTWORTHINESS",
+              "id": "faf721ae-83ff-45eb-bb13-882c1f6a90c2"
+            },
+            {
+              "requirement": "SA-14 CRITICALITY ANALYSIS",
+              "id": "6afdfc6e-9b67-4dc9-aca7-5a4b0ef70cf4"
+            },
+            {
+              "requirement": "SA-15 DEVELOPMENT PROCESS, STANDARDS, AND TOOLS",
+              "id": "22f04694-d5f0-44e5-a0dc-f23e8074d95d"
+            },
+            {
+              "requirement": "SA-16 DEVELOPER-PROVIDED TRAINING",
+              "id": "1f595ed7-1e71-4ac7-8e7f-3ceea4f63a83"
+            },
+            {
+              "requirement": "SA-17 DEVELOPER SECURITY AND PRIVACY ARCHITECTURE AND DESIGN",
+              "id": "11b33e23-76b1-483c-a0e1-bd315da3c2f6"
+            },
+            {
+              "requirement": "SA-18 TAMPER RESISTANCE AND DETECTION",
+              "id": "1addab9d-6a42-4e0d-9af8-b955f463526d"
+            },
+            {
+              "requirement": "SA-19 COMPONENT AUTHENTICITY",
+              "id": "e97b029b-7385-42b9-847c-d555108f4f9d"
+            },
+            {
+              "requirement": "SA-20 CUSTOMIZED DEVELOPMENT OF CRITICAL COMPONENTS",
+              "id": "7695795d-a959-4334-9d68-5b12015b553d"
+            },
+            {
+              "requirement": "SA-21 DEVELOPER SCREENING",
+              "id": "a1f8244a-c569-496c-a356-4dcfeced37df"
+            },
+            {
+              "requirement": "SA-22 UNSUPPORTED SYSTEM COMPONENTS",
+              "id": "4adba7f1-a42d-4dd4-ac43-412c15c3f062"
+            },
+            {
+              "requirement": "SA-23 SPECIALIZATION",
+              "id": "1f6ec6ed-333c-404e-9fda-fbe9999c346d"
+            }
+          ],
+          "id": "b0689d59-b32d-4068-a011-6d1f484f1c76"
+        }
+      ],
+      "id": "78259e7a-605f-4f37-bd65-2ce163125f6c"
+    },
+    {
+      "title": "SC",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "SC-1 POLICY AND PROCEDURES",
+              "id": "4a0a5c79-16e9-478b-91a2-5218e087a090"
+            },
+            {
+              "requirement": "SC-2 SEPARATION OF SYSTEMS AND USERS FUNCTIONALITY",
+              "id": "b2f167dd-d50c-4057-9b92-217ea1ee81f0"
+            },
+            {
+              "requirement": "SC-3 SECURITY FUNCTION ISOLATION",
+              "id": "5508f5a8-6113-4f54-80bd-920150aeb5b0"
+            },
+            {
+              "requirement": "SC-4 INFORMATION IN SHARED RESOURCES",
+              "id": "3b08c2fa-ea81-47eb-8060-6e4eb3791cf6"
+            },
+            {
+              "requirement": "SC-5 DENIAL OF SERVICE PROTECTION",
+              "id": "392efe82-b2d0-4412-b44e-03a389fb4fae"
+            },
+            {
+              "requirement": "SC-6 RESOURCE AVAILABILITY",
+              "id": "38813066-cba1-4ac2-99f2-1c6f2fef00a4"
+            },
+            {
+              "requirement": "SC-7 BOUNDARY PROTECTION",
+              "id": "b2e2cec0-b1bf-4fc0-a639-60ec5b15a6d5"
+            },
+            {
+              "requirement": "SC-8 TRANSMISSION CONFIDENTIALITY AND INTEGRITY",
+              "id": "11cfa4de-f7c7-4f8c-8416-fae0c23e47eb"
+            },
+            {
+              "requirement": "SC-9 TRANSMISSION CONFIDENTIALITY",
+              "id": "1add4eb3-c5bd-4eca-a7e9-65638e3a786c"
+            },
+            {
+              "requirement": "SC-10 NETWORK DISCONNECT",
+              "id": "45174cd2-e14a-4c32-9e7a-fe24b83f54af"
+            },
+            {
+              "requirement": "SC-11 TRUSTED PATH",
+              "id": "33eb92b9-4442-4c1a-abbf-531e19061b09"
+            },
+            {
+              "requirement": "SC-12 CRYPTOGRAPHIC KEY ESTABLISHMENT AND MANAGEMENT",
+              "id": "4e66ad18-dd91-4bf0-b5a3-955d6abfff80"
+            },
+            {
+              "requirement": "SC-13 CRYPTOGRAPHIC PROTECTION",
+              "id": "a40012ee-0651-4a31-a05d-8b8403842ad3"
+            },
+            {
+              "requirement": "SC-14 PUBLIC ACCESS PROTECTIONS",
+              "id": "8266e9c7-f280-4406-b325-584b1ff20237"
+            },
+            {
+              "requirement": "SC-15 COLLABORATIVE COMPUTING DEVICES",
+              "id": "06525e4b-2e00-4247-946a-23f5b1ef0ce6"
+            },
+            {
+              "requirement": "SC-16 TRANSMISSION OF SECURITY ATTRIBUTES",
+              "id": "f3428842-d687-469d-8fe3-3cc193ac9136"
+            },
+            {
+              "requirement": "SC-17 PUBLIC KEY INFRASTRUCTURE CERTIFICATES",
+              "id": "bebd3c3f-3e03-4a57-93ad-79da1a896d35"
+            },
+            {
+              "requirement": "SC-18 MOBILE CODE",
+              "id": "e967cb1a-9fff-4107-a0c7-3dcfff6c08ce"
+            },
+            {
+              "requirement": "SC-19 VOICE OVER INTERNET PROTOCOL",
+              "id": "f4501691-302d-4966-98f0-73e22602bed0"
+            },
+            {
+              "requirement": "SC-20 SECURE NAME/ADDRESS RESOLUTION SERVICE (AUTHORITATIVE SOURCE)",
+              "id": "aff8a39d-e79f-4ffa-ba57-f6b2f8349822"
+            },
+            {
+              "requirement": "SC-21 SECURE NAME/ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER)",
+              "id": "cb334a80-2e2d-410d-b7d4-4779e80251b1"
+            },
+            {
+              "requirement": "SC-22 ARCHITECTURAL AND CONFIGURATION CHECKLISTS",
+              "id": "33d9b8cc-bf95-464e-9ee2-2764e2f4d877"
+            },
+            {
+              "requirement": "SC-23 SESSION AUTHENTICITY",
+              "id": "3382626f-6f18-421b-80be-ee32dfa29768"
+            },
+            {
+              "requirement": "SC-24 FAIL IN KNOWN STATE",
+              "id": "1a5659be-7e1e-42c8-8dfc-e8bcc848aaf0"
+            },
+            {
+              "requirement": "SC-25 THIN NODES",
+              "id": "e010d914-7b60-4feb-883b-6af8defa5a68"
+            },
+            {
+              "requirement": "SC-26 DECOYS",
+              "id": "2441a96d-2216-4de5-9960-55c926d4010f"
+            },
+            {
+              "requirement": "SC-27 PLATFORM-INDEPENDENT APPLICATIONS",
+              "id": "d22f4c9b-d552-462b-9504-e9184f6e3f8d"
+            },
+            {
+              "requirement": "SC-28 PROTECTION OF INFORMATION AT REST",
+              "id": "3bc59a95-60bf-4416-ac90-c1f8d8d6517a"
+            },
+            {
+              "requirement": "SC-29 HETEROGENEITY",
+              "id": "8583b631-97dc-48c5-a812-d3782a99fcc7"
+            },
+            {
+              "requirement": "SC-30 CONCEALMENT AND MISDIRECTION",
+              "id": "66c8a9d1-7812-4a6a-b1c0-a7554711f3de"
+            },
+            {
+              "requirement": "SC-31 COVERT CHANNEL ANALYSIS",
+              "id": "90a29acb-147d-410d-b5ec-38a5a31f938f"
+            },
+            {
+              "requirement": "SC-32 SYSTEM PARTITIONING",
+              "id": "86b67c89-6f44-4076-972a-2ba759bc618d"
+            },
+            {
+              "requirement": "SC-33 TRANSMISSION PREPARATION INTEGRITY",
+              "id": "139a93d1-9425-4bac-b12c-ce98d340c112"
+            },
+            {
+              "requirement": "SC-34 NON-MODIFIABLE EXECUTABLE PROGRAMS",
+              "id": "b475f529-44d2-4798-9d22-7126a11c64e6"
+            },
+            {
+              "requirement": "SC-35 EXTERNAL MALICIOUS CODE IDENTIFICATION",
+              "id": "b829360d-c5e8-4bd6-ad48-4df4cd806a76"
+            },
+            {
+              "requirement": "SC-36 DISTRIBUTED PROCESSING AND STORAGE",
+              "id": "86748412-d9d6-4730-8cf7-7ddee14d886c"
+            },
+            {
+              "requirement": "SC-37 OUT-OF-BAND CHANNELS",
+              "id": "aaae2ecd-be62-4d9e-ba59-73a2efb97b06"
+            },
+            {
+              "requirement": "SC-38 OPERATIONS SECURITY",
+              "id": "2c1064ab-efcd-4989-b76b-5fcf851fb625"
+            },
+            {
+              "requirement": "SC-39 PROCESS ISOLATION",
+              "id": "712aa7db-0560-4e12-bab2-8749c13a212e"
+            },
+            {
+              "requirement": "SC-40 WIRELESS LINK PROTECTION",
+              "id": "79f659c8-e927-4124-87f0-90aeb21ce93e"
+            },
+            {
+              "requirement": "SC-41 PORT AND I/O DEVICE ACCESS",
+              "id": "822c5555-cc51-47be-921b-bbd6aa250be6"
+            },
+            {
+              "requirement": "SC-42 SENSOR CAPABILITY AND DATA",
+              "id": "931d8421-baf0-4019-b121-b1b3f72b7195"
+            },
+            {
+              "requirement": "SC-43 USAGE RESTRICTIONS",
+              "id": "d264c82d-0b45-4fea-93da-8807e4f2f113"
+            },
+            {
+              "requirement": "SC-44 DETONATION CHAMBERS",
+              "id": "9e66f7a6-3c13-4fc9-8d30-125de526a6c1"
+            },
+            {
+              "requirement": "SC-45 SYSTEM TIME SYNCHRONIZATION",
+              "id": "82b85a67-7d27-4a98-a2a8-1ec0a11855eb"
+            },
+            {
+              "requirement": "SC-46 CROSS DOMAIN POLICY ENFORCEMENT",
+              "id": "8dc089ff-0a8a-4743-aaec-f36f6d949b5d"
+            },
+            {
+              "requirement": "SC-47 ALTERNATE COMMUNICATIONS PATHS",
+              "id": "a3d86e95-bc5d-4588-add8-55dc699dfdc0"
+            },
+            {
+              "requirement": "SC-48 SENSOR RELOCATION",
+              "id": "67588414-7eab-4451-b9f8-e3c97dbc3a23"
+            },
+            {
+              "requirement": "SC-49 HARDWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT",
+              "id": "e332cd84-fd57-40f7-8c1f-b784fd9478cf"
+            },
+            {
+              "requirement": "SC-50 SOFTWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT",
+              "id": "fba59433-9a51-4386-9a01-fa313da9ea50"
+            },
+            {
+              "requirement": "SC-51 HARDWARE-BASED PROTECTION",
+              "id": "e48dec48-5dba-44e3-b044-4f13595bb6a7"
+            }
+          ],
+          "id": "c498c59e-4fd9-47ce-8502-975655c6b9a0"
+        }
+      ],
+      "id": "a4df2f2d-b68c-42e7-af6b-d2e3ca21fd32"
+    },
+    {
+      "title": "SI",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "SI-1 POLICY AND PROCEDURES",
+              "id": "8b569b75-9ad3-489e-ae38-90d68bdc0b41"
+            },
+            {
+              "requirement": "SI-2 FLAW REMEDIATION",
+              "id": "8fe8a187-8075-4929-97ee-740f97e69b81"
+            },
+            {
+              "requirement": "SI-3 MALICIOUS CODE PROTECTION",
+              "id": "aefbc921-139b-4ec0-8380-fe41db715249"
+            },
+            {
+              "requirement": "SI-4 INFORMATION SYSTEM MONITORING",
+              "id": "2189623a-794f-4cd5-a457-bee694e59b80"
+            },
+            {
+              "requirement": "SI-5 SECURITY ALERTS, ADVISORIES, AND DIRECTIVES",
+              "id": "ef9b7c0c-7747-41c6-81ec-c9c84cc8f2d3"
+            },
+            {
+              "requirement": "SI-6 SECURITY FUNCTIONALITY VERIFICATION",
+              "id": "d6a233bd-7e54-4e0f-9abf-871a0aea2f57"
+            },
+            {
+              "requirement": "SI-7 SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY",
+              "id": "63924e15-c58b-4855-ad72-dba2d9a5e791"
+            },
+            {
+              "requirement": "SI-8 SPAM PROTECTION",
+              "id": "8deefa74-c9ab-403b-a39b-3ecf4464d020"
+            },
+            {
+              "requirement": "SI-9 INFORMATION INPUT RESTRICTIONS",
+              "id": "230ba130-1d5a-4ee6-bd38-0bd64ff68290"
+            },
+            {
+              "requirement": "SI-10 INFORMATION INPUT VALIDATION",
+              "id": "b1207342-2ffa-41c0-a49f-a42f7d588459"
+            },
+            {
+              "requirement": "SI-11 ERROR HANDLING",
+              "id": "28a4ad08-d6ce-4e55-a8d8-b128666b7f94"
+            },
+            {
+              "requirement": "SI-12 INFORMATION MANAGEMENT AND RETENTION",
+              "id": "5bcae38e-6b0f-40c8-9240-044d3197f1db"
+            },
+            {
+              "requirement": "SI-13 PREDICTABLE FAILURE PREVENTION",
+              "id": "1cf7c096-9970-4363-a044-a40507b02f75"
+            },
+            {
+              "requirement": "SI-14 NON-PERSISTENT",
+              "id": "4a4fb946-da6f-4851-b259-f80b0759014e"
+            },
+            {
+              "requirement": "SI-15 INFORMATION OUTPUT FILTERING",
+              "id": "46013f39-fef2-4b2b-bca6-fd349a76975a"
+            },
+            {
+              "requirement": "SI-16 MEMORY PROTECTION",
+              "id": "97ea129d-a4c4-4ed1-a042-77cc6367b317"
+            },
+            {
+              "requirement": "SI-17 FAIL-SAFE PROCEDURES",
+              "id": "dc8d34e3-c312-45b2-a3e9-5aa3d3b5c03b"
+            },
+            {
+              "requirement": "SI-18 PERSONALLY IDENTIFIABLE INFORMATION QUALITY OPERATIONS",
+              "id": "162b7a7d-2e5c-47a4-b544-260018dd7933"
+            },
+            {
+              "requirement": "SI-19 DE-IDENTIFICATION",
+              "id": "9483f78d-add4-4628-a2d1-dfd25e575b22"
+            },
+            {
+              "requirement": "SI-20 TAINTING",
+              "id": "771e0d58-cdf8-426c-84aa-fcaac1a4eaff"
+            },
+            {
+              "requirement": "SI-21 INFORMATION REFRESH",
+              "id": "494942d4-3f63-4109-88d8-efec725e81f8"
+            },
+            {
+              "requirement": "SI-22 INFORMATION DIVERSITY",
+              "id": "73dce232-34da-4975-9ed7-7a9189515ad8"
+            },
+            {
+              "requirement": "SI-23 INFORMATION FRAGMENTATION",
+              "id": "5a8aeed4-b1d3-4cc5-bd31-42a50a4f9eec"
+            }
+          ],
+          "id": "b3e66dfe-9090-4468-b665-3f3d98bc33e9"
+        }
+      ],
+      "id": "9be555a7-04a1-4bf2-afa3-26435324e229"
+    },
+    {
+      "title": "SR",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "SR-1 POLICY AND PROCEDURES",
+              "id": "7394cab2-b1f1-4468-a90c-bc656c4962c4"
+            },
+            {
+              "requirement": "SR-2 SUPPLY CHAIN MANAGEMENT PLAN",
+              "id": "e2f788d0-b87a-4d2e-aa68-5c2a17bfa34a"
+            },
+            {
+              "requirement": "SR-3 SUPPLY CHAIN CONTROLS AND PROCESSES",
+              "id": "88462ec0-bd18-47d3-96d2-2b2abcf11886"
+            },
+            {
+              "requirement": "SR-4 PROVENANCE",
+              "id": "1dc7fbab-06bd-4d63-97f8-f36d71e2078d"
+            },
+            {
+              "requirement": "SR-5 ACQUISITION STRATEGIES, TOOLS, AND METHODS",
+              "id": "d9badbb8-f731-40f9-a0a2-31a1eb5e2349"
+            },
+            {
+              "requirement": "SR-6 SUPPLIER ASSESSMENTS AND REVIEWS",
+              "id": "827d38ef-3856-4ebc-9409-47e02b213358"
+            },
+            {
+              "requirement": "SR-7 SUPPLY CHAIN OPERATIONS SECURITY",
+              "id": "75572073-7d52-4d77-8c03-bfe7b53f6728"
+            },
+            {
+              "requirement": "SR-8 NOTIFICATION AGREEMENTS",
+              "id": "86fad804-4a1b-48ea-99e4-ae62443a4eb5"
+            },
+            {
+              "requirement": "SR-9 TAMPER RESISTANCE AND DETECTION",
+              "id": "430c655c-efc1-47ad-bf7f-344fc5f59eb0"
+            },
+            {
+              "requirement": "SR-10 INSPECTION OF SYSTEM OR COMPONENTS",
+              "id": "4f06b7cd-1bda-414e-afa4-5a045e93d30a"
+            },
+            {
+              "requirement": "SR-11 COMPONENT AUTHENTICITY",
+              "id": "adfc35a8-78a4-4757-a7f1-3941e4cb0601"
+            },
+            {
+              "requirement": "SR-12 COMPONENT DISPOSAL",
+              "id": "0ae3719e-3c23-4383-aef6-4f443a6b073e"
+            }
+          ],
+          "id": "db02f2a8-3344-4d01-809c-67411a77af4c"
+        }
+      ],
+      "id": "2d47f286-38c5-4a99-b4e5-22ebc710476c"
+    }
+  ],
+  "id": "nist_sp800_53"
+}

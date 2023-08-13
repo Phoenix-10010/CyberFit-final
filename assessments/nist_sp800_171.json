@@ -1,0 +1,599 @@
+{
+  "category": [
+    {
+      "title": "(3.1): ACCESS CONTROL",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.1.1): Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems).",
+              "id": "ea2eeafc-b530-4a16-94cf-ff4318a765de"
+            },
+            {
+              "requirement": "(3.1.2): Limit system access to the types of transactions and functions that authorized users are permitted to execute.",
+              "id": "5f31e96f-d7e7-4443-b413-a80853fa44dd"
+            },
+            {
+              "requirement": "(3.1.3): Control the flow of CUI in accordance with approved authorizations.",
+              "id": "a03e83cc-73d6-4c51-89c8-ad1d6da3d47d"
+            },
+            {
+              "requirement": "(3.1.4): Separate the duties of individuals to reduce the risk of malevolent activity without collusion.",
+              "id": "6aa6e63e-9e2a-4daf-be85-7265e9a05b6f"
+            },
+            {
+              "requirement": "(3.1.5): Employ the principle of least privilege, including for specific security functions and privileged accounts.",
+              "id": "274429bd-ad4a-4ba8-9f45-5cda4e59ed2d"
+            },
+            {
+              "requirement": "(3.1.6): Use non-privileged accounts or roles when accessing nonsecurity functions.",
+              "id": "ca7bd48d-7fff-423b-8c11-749251725d2a"
+            },
+            {
+              "requirement": "(3.1.7): Prevent non-privileged users from executing privileged functions and capture the execution of such functions in audit logs.",
+              "id": "f973e26c-8dd9-431d-aa12-56b6f2b3619b"
+            },
+            {
+              "requirement": "(3.1.8): Limit unsuccessful logon attempts.",
+              "id": "164d0f05-3ad0-4b37-9ffe-c2c5306a256f"
+            },
+            {
+              "requirement": "(3.1.9): Provide privacy and security notices consistent with applicable CUI rules.",
+              "id": "953459ad-68f4-4837-9dc8-d5ae5e3e86e1"
+            },
+            {
+              "requirement": "(3.1.10): Use session lock with pattern-hiding displays to prevent access and viewing of data after a period of inactivity.",
+              "id": "b6791dac-ea7c-4c3b-9fe6-62778d316d3f"
+            },
+            {
+              "requirement": "(3.1.11): Terminate (automatically) a user session after a defined condition.",
+              "id": "1687e005-c577-4878-af13-179910cdfb02"
+            },
+            {
+              "requirement": "(3.1.12): Monitor and control remote access sessions",
+              "id": "3c982250-1e1c-472e-86d3-5734096d8c76"
+            },
+            {
+              "requirement": "(3.1.13): Employ cryptographic mechanisms to protect the confidentiality of remote access sessions.",
+              "id": "483e5703-6216-40e6-89af-38cb02f3695b"
+            },
+            {
+              "requirement": "(3.1.14): Route remote accesses via managed access control points.",
+              "id": "66a1a071-7973-45f8-9220-5b9becfa04a3"
+            },
+            {
+              "requirement": "(3.1.15): Authorize remote execution of privileged commands and remote access to security-relevant information.",
+              "id": "459259a0-472b-4f60-9ee1-226066b84be8"
+            },
+            {
+              "requirement": "(3.1.16): Authorize wireless access prior to allowing such connections.",
+              "id": "6fd2a8ca-791b-4397-a6c6-0ad3c6d5a20d"
+            },
+            {
+              "requirement": "(3.1.17): Protect wireless access using authentication and encryption.",
+              "id": "3dbdc2a7-4d7d-451d-96c5-4880ec5a8e8d"
+            },
+            {
+              "requirement": "(3.1.18): Control connection of mobile devices",
+              "id": "353be5c4-d86c-4644-83ea-ee529cb3ad6b"
+            },
+            {
+              "requirement": "(3.1.19): Encrypt CUI on mobile devices and mobile computing platforms.",
+              "id": "41d86c1b-45a8-4c75-872a-65d8033019d6"
+            },
+            {
+              "requirement": "(3.1.20): Verify and control/limit connections to and use of external information systems.",
+              "id": "2786f073-8ef1-4c77-9903-c53eacc4584c"
+            },
+            {
+              "requirement": "(3.1.21): Limit use of portable storage devices on external information systems.",
+              "id": "a5f286f5-3f49-4cc4-aa08-932f6ed132b4"
+            },
+            {
+              "requirement": "(3.1.22): Control CUI posted or processed on publicly accessible information systems.",
+              "id": "fd40208a-c7e7-48fd-a5c9-b7a60ab721c7"
+            }
+          ],
+          "id": "4408d220-f604-4c2d-a69e-8dbf1f181ada"
+        }
+      ],
+      "id": "3286c38c-704a-4315-8f3f-5cf587e10841"
+    },
+    {
+      "title": "(3.2): AWARENESS AND TRAINING",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.2.1): Ensure that managers, systems administrators, and users of organizational systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of those systems.",
+              "id": "d22e0f5f-47c3-4e7a-93fc-abd558ebec6c"
+            },
+            {
+              "requirement": "(3.2.2): Ensure that organizational personnel are adequately trained to carry out their assigned information security-related duties and responsibilities.",
+              "id": "72d2a6a6-3e98-4bca-adf9-2064d69fc3e8"
+            },
+            {
+              "requirement": "(3.2.3): Provide security awareness training on recognizing and reporting potential indicators of insider threat.",
+              "id": "60000e1e-7aaf-4594-a40e-d37696b1fc97"
+            }
+          ],
+          "id": "87eec614-5354-4e4a-85c7-bb7b792d38cf"
+        }
+      ],
+      "id": "cf85fdb7-8a22-4e75-ab24-1de09b614e40"
+    },
+    {
+      "title": "(3.3): AUDIT AND ACCOUNTABILITY",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.3.1): Device Identification",
+              "id": "6a8ef9c7-73ac-4100-a260-d3a2c1cdecf8"
+            },
+            {
+              "requirement": "(3.3.2): Device Configuration",
+              "id": "26012d74-af8a-480e-8d32-89668ee3dc64"
+            },
+            {
+              "requirement": "(3.3.3): Data Protection",
+              "id": "4ca746a4-4e4c-4f17-ab02-842113ac94b7"
+            },
+            {
+              "requirement": "(3.3.4): Logical Access to Interfaces",
+              "id": "9a59f842-3b42-45cb-a357-24ccc26bf556"
+            },
+            {
+              "requirement": "(3.3.5): Software Update",
+              "id": "746b6ea8-9911-4953-a446-10e353c12502"
+            },
+            {
+              "requirement": "(3.3.6): Cybersecurity State Awareness",
+              "id": "acaa0f74-46e0-4ab7-99f0-c8993b9a9d12"
+            },
+            {
+              "requirement": "(3.3.7): Provide a system capability that compares and synchronizes internal system clocks with an authoritative source to generate time stamps for audit records.",
+              "id": "2d7e8c1c-f139-4ae4-83a4-3b0b4b9bcb2e"
+            },
+            {
+              "requirement": "(3.3.8): Protect audit information and audit logging tools from unauthorized access, modification, and deletion.",
+              "id": "16d26540-7ce7-4bd7-a1b2-29a223de01dd"
+            },
+            {
+              "requirement": "(3.3.9): Limit management of audit logging functionality to a subset of privileged users.",
+              "id": "873b14e2-fa47-4c26-803b-0a2ceb1f132f"
+            }
+          ],
+          "id": "7c29d580-d3bf-462c-93fb-459346849a3b"
+        }
+      ],
+      "id": "71cfcd41-3ef8-4264-8ed6-e391936c1a9f"
+    },
+    {
+      "title": "(3.4): CONFIGURATION MANAGEMENT",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.4.1): Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles.",
+              "id": "e3c514b9-68d4-4121-8075-a9d15c9bd7df"
+            },
+            {
+              "requirement": "(3.4.2): Establish and enforce security configuration settings for information technology products employed in organizational systems.",
+              "id": "1ecbc9e6-64f6-4127-9749-614ecc01cbee"
+            },
+            {
+              "requirement": "(3.4.3): Track, review, approve/disapprove, and audit changes to organizational systems.",
+              "id": "ce148d72-9bec-471c-98c6-cda0ae5a15a3"
+            },
+            {
+              "requirement": "(3.4.4): Analyze the security impact of changes prior to implementation.",
+              "id": "5c711414-18db-4c97-a7e8-3bf89b5decfe"
+            },
+            {
+              "requirement": "(3.4.5): Define, document, approve, and enforce physical and logical access restrictions associated with changes to organizational systems.",
+              "id": "4d4b5a15-b054-470c-b715-5f3c4d56395d"
+            },
+            {
+              "requirement": "(3.4.6): Employ the principle of least functionality by configuring organizational systems to provide only essential capabilities.",
+              "id": "3888a404-3486-4b6e-bbab-744a47989a4f"
+            },
+            {
+              "requirement": "(3.4.7): Restrict, disable, and prevent the use of nonessential programs, functions, ports, protocols, and services.",
+              "id": "86af6419-301e-4060-851d-084669434f7a"
+            },
+            {
+              "requirement": "(3.4.8): Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized software or deny-all, permit-by-exception (whitelisting) policy to allow the execution of authorized software.",
+              "id": "133d2372-8031-4bcd-b10e-87c335bfb2b3"
+            },
+            {
+              "requirement": "(3.4.9): Control and monitor user-installed software.",
+              "id": "1fc83b4f-3352-4641-b016-8d6619e0aae0"
+            }
+          ],
+          "id": "938df93a-251d-4500-a59a-69b83d7ded92"
+        }
+      ],
+      "id": "6f8d9a49-4a97-42eb-bbdf-611645890fae"
+    },
+    {
+      "title": "(3.5): IDENTIFICATION AND AUTHENTICATION",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.5.1): Identify information system users, processes acting on behalf of users, or devices.",
+              "id": "f5a21e86-f858-4621-80c0-0853a8bb5277"
+            },
+            {
+              "requirement": "(3.5.2): Authenticate (or verify) the identities of those users, processes, or devices, as a prerequisite to allowing access to organizational information systems.",
+              "id": "da54e754-e945-4806-b89a-7becbf6c7b0d"
+            },
+            {
+              "requirement": "(3.5.3): Use multifactor authentication for local and network access to privileged accounts and for network access to non-privileged accounts.",
+              "id": "8653317c-12be-4085-9d6c-2aae3df6bb85"
+            },
+            {
+              "requirement": "(3.5.4): Employ replay-resistant authentication mechanisms for network access to privileged and non-privileged accounts.",
+              "id": "66844a49-333a-4968-8dbb-13ef8d0425fa"
+            },
+            {
+              "requirement": "(3.5.5): Prevent reuse of identifiers for a defined period.",
+              "id": "24988c8a-4dca-48a5-ac54-424ab3d20783"
+            },
+            {
+              "requirement": "(3.5.6): Disable identifiers after a defined period of inactivity.",
+              "id": "65f5772a-5f91-4f7c-88b0-047aad69982c"
+            },
+            {
+              "requirement": "(3.5.7): Enforce a minimum password complexity and change of characters when new passwords are created.",
+              "id": "0dfc63f8-635b-4f0a-aef6-bc234e7489bc"
+            },
+            {
+              "requirement": "(3.5.8): Prohibit password reuse for a specified number of generations.",
+              "id": "b628764d-4606-43c4-864f-62125de95e1c"
+            },
+            {
+              "requirement": "(3.5.9): Allow temporary password use for system logons with an immediate change to a permanent password.",
+              "id": "b05f9547-c3df-4601-9cf0-6f634121e652"
+            },
+            {
+              "requirement": "(3.5.10): Store and transmit only cryptographically-protected passwords.",
+              "id": "b5cfe346-84b3-476a-ade0-fe4400e3c597"
+            },
+            {
+              "requirement": "(3.5.11): Obscure feedback of authentication information.",
+              "id": "4ab1f7e8-9de9-4a4b-b555-03551cc874fd"
+            }
+          ],
+          "id": "03ce33e5-8f73-4825-846e-76d564fb7a28"
+        }
+      ],
+      "id": "f232a769-d140-4fd9-bb70-48baec7e45ab"
+    },
+    {
+      "title": "(3.6): INCIDENT RESPONSE",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.6.1): Establish an operational incident-handling capability for organizational systems that includes adequate preparation, detection, analysis, containment, recovery, and user response activities.",
+              "id": "839b480a-096b-4342-9c2d-eaff6466203c"
+            },
+            {
+              "requirement": "(3.6.2): Track, document, and report incidents to appropriate officials and/or authorities both internal and external to the organization.",
+              "id": "68942183-642d-48ec-a710-0fbd4c3f24ed"
+            },
+            {
+              "requirement": "(3.6.3): Test the organizational incident response capability.",
+              "id": "837925c0-1ec6-4d05-90b2-4c0fccd34c9e"
+            }
+          ],
+          "id": "5d1d4991-eca6-4e54-b0a6-9d51105e7b9d"
+        }
+      ],
+      "id": "75d5b062-eb1d-4cbf-9063-15a9bb44afe3"
+    },
+    {
+      "title": "(3.7): MAINTENANCE",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.7.1): Perform maintenance on organizational systems.",
+              "id": "414c9b7c-583c-40e6-b2ce-42e478460a68"
+            },
+            {
+              "requirement": "(3.7.2): Provide controls on the tools, techniques, mechanisms, and personnel used to conduct system maintenance.",
+              "id": "42994b81-6333-45bd-ba0b-e3fa227a404b"
+            },
+            {
+              "requirement": "(3.7.3): Ensure equipment removed for off-site maintenance is sanitized of any CUI.",
+              "id": "5bdc2a82-a8c1-4e0a-b1e4-0638506282d6"
+            },
+            {
+              "requirement": "(3.7.4): Check media containing diagnostic and test programs for malicious code before the media are used in organizational systems.",
+              "id": "2852e4b4-b417-4d17-84ac-e40f811ff79c"
+            },
+            {
+              "requirement": "(3.7.5): Require multifactor authentication to establish nonlocal maintenance sessions via external network connections and terminate such connections when nonlocal maintenance is complete.",
+              "id": "06577d82-86c6-47c9-a437-2a8caf059372"
+            },
+            {
+              "requirement": "(3.7.6): Supervise the maintenance activities of maintenance personnel without required access authorization.",
+              "id": "cea1d1bf-3744-4b66-9a4f-d27659a51c22"
+            }
+          ],
+          "id": "2c177dd4-f7ae-4d4c-a133-afd1ab0aeb9e"
+        }
+      ],
+      "id": "bce699ff-ae29-4e2a-a952-573f42981225"
+    },
+    {
+      "title": "(3.8): MEDIA PROTECTION",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.8.1): Protect (i.e., physically control and securely store) information system media containing CUI, both paper and digital.",
+              "id": "ff47dc0f-327a-4c54-a737-7e44151e2bc9"
+            },
+            {
+              "requirement": "(3.8.2): Limit access to information system media to authorized users.",
+              "id": "5a106b74-176e-4bad-894b-6cc2ea0664b7"
+            },
+            {
+              "requirement": "(3.8.3): Sanitize or destroy information system media containing CUI before disposal or release for reuse.",
+              "id": "b2caceef-cd1a-4b7d-b78a-6fd41c4d500f"
+            },
+            {
+              "requirement": "(3.8.4): Mark media with necessary CUI markings and distribution limitations.",
+              "id": "f0ccd612-365b-4be8-aa2e-59c39c1e5e83"
+            },
+            {
+              "requirement": "(3.8.5): Control access to media containing CUI and maintain accountability for media during transport outside of controlled areas.",
+              "id": "63eacf1c-7721-4471-819d-50e86b861416"
+            },
+            {
+              "requirement": "(3.8.6): Implement cryptographic mechanisms to protect the confidentiality of CUI stored on digital media during transport unless otherwise protected by alternative physical safeguards.",
+              "id": "baaa22a1-2887-4461-9c08-e88f9de29789"
+            },
+            {
+              "requirement": "(3.8.7): Control the use of removable media on information system components.",
+              "id": "3268e707-466b-4675-9865-15fc8054a3bd"
+            },
+            {
+              "requirement": "(3.8.8): Prohibit the use of portable storage devices when such devices have no identifiable owner.",
+              "id": "458bc429-4abd-43e6-b540-ba2611244f75"
+            },
+            {
+              "requirement": "(3.8.9): Protect the confidentiality of backup CUI at storage locations.",
+              "id": "ac968f28-1561-490d-be10-03403778fb0f"
+            }
+          ],
+          "id": "22f9f68f-6bbd-44aa-86a7-68804a1c2641"
+        }
+      ],
+      "id": "76d02e89-9b69-4938-b8e1-db171d4dca39"
+    },
+    {
+      "title": "(3.9): PHYSICAL PROTECTION",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.9.1): Screen individuals prior to authorizing access to the facility or to restricted areas containing CUI.",
+              "id": "8aa0249d-c10a-4721-83da-02d64beb81e8"
+            },
+            {
+              "requirement": "(3.9.2): Ensure that organizational systems containing CUI are protected during and after personnel actions such as terminations and transfers.",
+              "id": "9c716528-19f5-4128-a01f-802e39771a30"
+            }
+          ],
+          "id": "50fc2d09-d48d-433d-ac81-4a99791fea56"
+        }
+      ],
+      "id": "d6c74b9d-f28d-45ba-a94d-a09d3650bfce"
+    },
+    {
+      "title": "(3.10): PHYSICAL PROTECTION",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.10.1): Limit physical access to organizational information systems, equipment, and the respective operating environments to authorized individuals.",
+              "id": "9d4e01d0-62fa-4da5-b805-df286e5ef481"
+            },
+            {
+              "requirement": "(3.10.2): Protect and monitor the physical facility and support infrastructure for those systems.",
+              "id": "717bff5e-2b93-41a0-b02d-58dac102adc0"
+            },
+            {
+              "requirement": "(3.10.3): Escort visitors and monitor visitor activity; maintain audit logs of physical access; and control and manage physical access devices.",
+              "id": "f10e3f6b-1d95-4b21-9018-2de1d5259f58"
+            },
+            {
+              "requirement": "(3.10.4): Maintain audit logs of physical access.",
+              "id": "08fe5115-f663-4525-bc1d-5ee98f9318cc"
+            },
+            {
+              "requirement": "(3.10.5): Control and manage physical access devices.",
+              "id": "7b5ed5ba-83e7-4289-8cd2-68cdd09f47bc"
+            },
+            {
+              "requirement": "(3.10.6): Enforce safeguarding measures for CUI at alternate work sites (e.g., telework sites).",
+              "id": "56f8994f-170f-4d06-8998-a16f82925da1"
+            }
+          ],
+          "id": "dd84d713-3d90-43fa-8c40-94394e096181"
+        }
+      ],
+      "id": "dd64caf1-504b-4472-9fac-4b9641ce8db6"
+    },
+    {
+      "title": "(3.11): RISK ASSESSMENT",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.11.1): Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational systems and the associated processing, storage, or transmission of CUI.",
+              "id": "a603b0b5-2e23-4bf0-8ad1-ca967225ac12"
+            },
+            {
+              "requirement": "(3.11.2): Scan for vulnerabilities in organizational systems and applications periodically and when new vulnerabilities affecting those systems and applications are identified.",
+              "id": "c660d4ea-f292-4493-a0e8-1c1a4a45c5a8"
+            },
+            {
+              "requirement": "(3.11.3): Remediate vulnerabilities in accordance with risk assessments.",
+              "id": "775613ab-d1a2-4d39-9d9c-127a93bfe361"
+            }
+          ],
+          "id": "27abdd10-be29-4de2-be44-0eb01d0d9954"
+        }
+      ],
+      "id": "317e6522-3e6f-4e57-ba09-61570fcb5b8e"
+    },
+    {
+      "title": "(3.12): SECURITY ASSESSMENT",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.12.1): Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.",
+              "id": "38282f52-c303-49b0-bf5e-c543e2ae880b"
+            },
+            {
+              "requirement": "(3.12.2): Develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities in organizational systems.",
+              "id": "48f9f43e-3f6a-43c7-9d09-5176095bf70a"
+            },
+            {
+              "requirement": "(3.12.3): Monitor security controls on an ongoing basis to ensure the continued effectiveness of the controls.",
+              "id": "86a4d9c5-d528-42b0-a02e-e3187f80fcc8"
+            },
+            {
+              "requirement": "(3.12.4): Develop, document, and periodically update system security plans that describe system boundaries, system environments of operation, how security requirements are implemented, and the relationships with or connections to other systems.",
+              "id": "4058cce2-aac6-446e-a803-a1e39d5dbf77"
+            }
+          ],
+          "id": "c7f9e2cc-d871-44b0-bab3-fd061b59b3b5"
+        }
+      ],
+      "id": "db7d9e4f-c8b9-4339-b5df-992a08a0eefd"
+    },
+    {
+      "title": "(3.13): SYSTEM AND COMMUNICATIONS PROTECTION",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.13.1): Monitor, control, and protect organizational communications (i.e., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems.",
+              "id": "d8d1e1b8-c74a-4db0-8fda-90bad381bb9a"
+            },
+            {
+              "requirement": "(3.13.2): Employ architectural designs, software development techniques, and systems engineering principles that promote effective information security within organizational information systems.",
+              "id": "52a8426a-ddd9-411f-9f18-ac629516689e"
+            },
+            {
+              "requirement": "(3.13.3): Separate user functionality from information system management functionality.",
+              "id": "95355597-2396-4f69-84e5-2eb6d00b5068"
+            },
+            {
+              "requirement": "(3.13.4): Prevent unauthorized and unintended information transfer via shared system resources.",
+              "id": "86e4e6b2-7882-4de7-8521-fe8d67ac01cf"
+            },
+            {
+              "requirement": "(3.13.5): Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.",
+              "id": "43c18351-a7c5-4c70-8957-792ff935e0a6"
+            },
+            {
+              "requirement": "(3.13.6): Deny network communications traffic by default and allow network communications traffic by exception (i.e., deny all, permit by exception).",
+              "id": "4f7c605f-cdc9-461c-95de-ea0225aedb03"
+            },
+            {
+              "requirement": "(3.13.7): Prevent remote devices from simultaneously establishing non-remote connections with the information system and communicating via some other connection to resources in external networks (i.e., split-tunneling).",
+              "id": "98f6b818-4842-4ec1-95fc-bdbfb059cdb0"
+            },
+            {
+              "requirement": "(3.13.8): Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI during transmission unless otherwise protected by alternative physical safeguards.",
+              "id": "a18673f2-f526-45b1-8458-c002ea436f78"
+            },
+            {
+              "requirement": "(3.13.9): Terminate network connections associated with communications sessions at the end of the sessions or after [Assignment: organization-defined time period] of inactivity.",
+              "id": "708c9823-8737-4fc6-8b73-316d970cf8f9"
+            },
+            {
+              "requirement": "(3.13.10): Establish and manage cryptographic keys for required cryptography employed within organizational information systems.",
+              "id": "ec0fde8c-3f72-4114-b86c-d5d4e2869886"
+            },
+            {
+              "requirement": "(3.13.11): Employ FIPS-validated cryptography when used to protect the confidentiality of CUI.",
+              "id": "05da0a6b-b7d5-4b94-93c1-3f03e11a81f5"
+            },
+            {
+              "requirement": "(3.13.12): Prohibit remote activation of collaborative computing devices and provide indication of devices in use to users physically present at the device.",
+              "id": "2427bb05-2886-4ff6-b005-cc85df1672bd"
+            },
+            {
+              "requirement": "(3.13.13): Control and monitor the use of mobile code.",
+              "id": "086b103a-38d5-43d4-87dc-2ebffcc6914d"
+            },
+            {
+              "requirement": "(3.13.14): Control and monitor the use of Voice over Internet Protocol (VoIP) technologies.",
+              "id": "b1be6cfc-2197-4e4f-bc55-c5815f5773f2"
+            },
+            {
+              "requirement": "(3.13.15): Protect the authenticity of communications sessions.",
+              "id": "6c597551-9670-42f3-872d-b6942f12f1f5"
+            },
+            {
+              "requirement": "(3.13.16): Protect the confidentiality of CUI at rest.",
+              "id": "52d3a8fb-d1be-4c7e-9f14-9c9316d889b0"
+            }
+          ],
+          "id": "320a9f3c-d918-4aaf-9a4d-bb9efbe223c7"
+        }
+      ],
+      "id": "80030306-f616-4417-b432-ecfbbab2174b"
+    },
+    {
+      "title": "(3.14): SYSTEM AND INFORMATION INTEGRITY",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "(3.14.1): Identify, report, and correct information and information system flaws in a timely manner.",
+              "id": "3f00b1dd-fe36-4e60-bbe4-f275479f4a19"
+            },
+            {
+              "requirement": "(3.14.2): Provide protection from malicious code at appropriate locations within organizational information systems.",
+              "id": "737ce0ac-7531-4869-a314-59f7b7dc38f7"
+            },
+            {
+              "requirement": "(3.14.3): Monitor system security alerts and advisories and take appropriate actions in response.",
+              "id": "e58c8733-ce68-4e15-aa80-ce83e1ffacd8"
+            },
+            {
+              "requirement": "(3.14.4): Update malicious code protection mechanisms when new releases are available.",
+              "id": "fc41f64a-5baa-4a4a-8b2d-289107902797"
+            },
+            {
+              "requirement": "(3.14.5): Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened, or executed.",
+              "id": "f4c2b9e0-7993-4f8b-90df-8c9e7a91fba9"
+            },
+            {
+              "requirement": "(3.14.6): Monitor organizational systems, including inbound and outbound communications traffic, to detect attacks and indicators of potential attacks.",
+              "id": "0932faa6-c99b-47ea-93ef-53a435ba6dcd"
+            },
+            {
+              "requirement": "(3.14.7): Identify unauthorized use of organizational systems.",
+              "id": "ec2db409-f235-41a0-8bbe-fdc5eaaf3155"
+            }
+          ],
+          "id": "f3c3d0bd-d923-47f9-8586-f5f4c5d11c57"
+        }
+      ],
+      "id": "cc27f135-ea54-4969-aadd-8a4c37630ace"
+    }
+  ],
+  "id": "nist_sp800_171"
+}

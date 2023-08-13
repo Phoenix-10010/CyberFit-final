@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, rgb(12, 61, 120) 0px, rgb(252, 55, 82) 100%);
+  color: #f7f7f7;
+  height: 100vh;
+}
+
+.main {
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; /* Add scroll overflow */
+}
+
+.faq_box {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Add scroll overflow */
+  text-align: justify;
+}
+
+.faq_box h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+.question {
+  margin-bottom: 2rem;
+}
+
+.question h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.question p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.question li {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.exit_button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.exit_button button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .main {
+    padding: 3rem 0;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  .title,
+  .description {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.25rem;
+  }
+
+  .faq_box {
+    text-align: left;
+  }
+}

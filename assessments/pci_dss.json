@@ -1,0 +1,293 @@
+{
+  "category": [
+    {
+      "title": "Build and Maintain a Secure Network",
+      "subcategory": [
+        {
+          "name": "Firewall Configuration",
+          "items": [
+            {
+              "requirement": "Install and maintain a firewall configuration to protect cardholder data.",
+              "id": "1dc89569-a7cb-4d4a-8722-c6c6c554c620"
+            },
+            {
+              "requirement": "Review firewall rules and configurations at least annually.",
+              "id": "60f7eedc-7f56-4396-a612-6819baae53f1"
+            }
+          ],
+          "id": "ebd776fe-c080-4e3d-9ef1-b3e7e4dc011c"
+        },
+        {
+          "name": "Secure Network Infrastructure",
+          "items": [
+            {
+              "requirement": "Use strong encryption protocols to secure cardholder data during transmission over open, public networks.",
+              "id": "7a092556-ea86-4e2f-bf63-0524fbdd3090"
+            },
+            {
+              "requirement": "Regularly update and patch network devices, systems, and software to address security vulnerabilities.",
+              "id": "ec75c58e-34a1-4baf-9fca-3107a46c74ee"
+            }
+          ],
+          "id": "d94fda0f-133a-4bd1-baf8-d4564800f8e5"
+        },
+        {
+          "name": "Default Passwords and Security Parameters",
+          "items": [
+            {
+              "requirement": "Change default passwords and security parameters to ensure only authorized individuals have access.",
+              "id": "c3e62cd8-51ef-4e8b-8d05-097ed9b2ad23"
+            },
+            {
+              "requirement": "Use strong and complex passwords for all system components.",
+              "id": "23090ced-8123-449e-8e88-493e037cf191"
+            }
+          ],
+          "id": "6b7f7f63-8060-4774-8f68-4e39b28a7f8e"
+        }
+      ],
+      "id": "ecbb8f54-8264-4719-a237-2ef1ce49ff7e"
+    },
+    {
+      "title": "Protect Cardholder Data",
+      "subcategory": [
+        {
+          "name": "Data Encryption",
+          "items": [
+            {
+              "requirement": "Use strong encryption to protect cardholder data in transit and at rest.",
+              "id": "d0040393-655f-44df-957a-c12a1918e16b"
+            },
+            {
+              "requirement": "Implement and maintain encryption key management processes and procedures.",
+              "id": "335e01bd-2130-47ec-82c8-2f20bf5a3f71"
+            }
+          ],
+          "id": "4f3c62e0-52f6-47cd-9f7f-0116d17f858c"
+        },
+        {
+          "name": "Cardholder Data Storage",
+          "items": [
+            {
+              "requirement": "Limit the storage of cardholder data and implement data retention and disposal policies.",
+              "id": "4eaec456-9c28-49d5-a0e2-ae1767e65e95"
+            },
+            {
+              "requirement": "Protect stored cardholder data using encryption, hashing, or truncation.",
+              "id": "f321d252-acd0-44d7-93ac-49bc8eebc4f7"
+            }
+          ],
+          "id": "6c8eaf45-5374-42c6-8755-4c5112288b4d"
+        },
+        {
+          "name": "Protection of Sensitive Authentication Data",
+          "items": [
+            {
+              "requirement": "Limit the storage of sensitive authentication data and implement data retention and disposal policies.",
+              "id": "b581a540-264a-4c8a-8e93-e6790b7b03e1"
+            },
+            {
+              "requirement": "Protect sensitive authentication data using strong encryption.",
+              "id": "696199c8-abeb-4a82-9379-e4a32d28ad4a"
+            }
+          ],
+          "id": "37f1d2ed-eb94-4e78-8a96-1279018f002f"
+        }
+      ],
+      "id": "a34ce12c-7f2c-4fd8-ab60-8d770d21a8b2"
+    },
+    {
+      "title": "Maintain a Vulnerability Management Program",
+      "subcategory": [
+        {
+          "name": "Risk Assessment",
+          "items": [
+            {
+              "requirement": "Regularly assess and identify vulnerabilities in system components.",
+              "id": "b9790747-addf-4524-aef3-3ebf43e82ecd"
+            },
+            {
+              "requirement": "Implement a formal process to track and remediate vulnerabilities.",
+              "id": "decb7ca2-aaf5-41aa-8f60-660dddd66113"
+            }
+          ],
+          "id": "0d315b23-abd5-495c-aa3d-ee6c560630e0"
+        },
+        {
+          "name": "Secure Systems and Applications",
+          "items": [
+            {
+              "requirement": "Install critical security patches within a defined timeframe.",
+              "id": "ff1d45eb-2d96-477c-8fe9-dd6f9c7233f4"
+            },
+            {
+              "requirement": "Develop and maintain secure systems and applications.",
+              "id": "86e07021-228d-48c8-8cb3-f953b136516f"
+            }
+          ],
+          "id": "a6c3d5d7-7905-4da6-8f01-97f1ecc38316"
+        },
+        {
+          "name": "Malware Protection",
+          "items": [
+            {
+              "requirement": "Deploy and maintain anti-virus software or other mechanisms to protect against malware.",
+              "id": "76e9f23a-e095-4066-a675-b13eb507ccae"
+            },
+            {
+              "requirement": "Ensure that anti-virus software is updated and performs regular scans.",
+              "id": "c23c6750-7d6b-41e0-8774-ee9f1083d698"
+            }
+          ],
+          "id": "d43504bd-9db7-470b-90b1-8a8eca189d4d"
+        }
+      ],
+      "id": "1e0be7a1-5138-45f3-a743-454402a3bf09"
+    },
+    {
+      "title": "Implement Strong Access Control Measures",
+      "subcategory": [
+        {
+          "name": "Restrict Access to Cardholder Data",
+          "items": [
+            {
+              "requirement": "Limit access to cardholder data to only those individuals with a legitimate need to know.",
+              "id": "ca7a415d-029c-45f8-840f-562453ac5a49"
+            },
+            {
+              "requirement": "Assign a unique ID to each user with access to system components.",
+              "id": "37d33ce9-8208-4e01-98db-7a4d41383681"
+            }
+          ],
+          "id": "ceba0f05-4d8b-4fbb-8de6-8828cac46362"
+        },
+        {
+          "name": "User Authentication",
+          "items": [
+            {
+              "requirement": "Use strong authentication methods for all users accessing system components.",
+              "id": "dbbf76a9-d9e8-45b0-b21e-2bd28ae5800a"
+            },
+            {
+              "requirement": "Implement multi-factor authentication for remote network access and administrative access.",
+              "id": "2e1be81a-106c-408a-9c40-83cb1dcd848f"
+            }
+          ],
+          "id": "793fb361-fd19-4e57-9396-28338df2b404"
+        },
+        {
+          "name": "Access Control Systems and Settings",
+          "items": [
+            {
+              "requirement": "Ensure that access control systems and settings are configured to deny access by default.",
+              "id": "a78e5255-c2cf-4171-bcbb-803da935476f"
+            },
+            {
+              "requirement": "Regularly review and modify user access privileges based on job responsibilities.",
+              "id": "67d2215d-5ae0-492e-8394-0d61408a3555"
+            }
+          ],
+          "id": "e2e9276f-f04f-4c84-9379-96ef7af13a37"
+        }
+      ],
+      "id": "bad4f359-d073-410a-82db-2a85aae7dbc1"
+    },
+    {
+      "title": "Regularly Monitor and Test Networks",
+      "subcategory": [
+        {
+          "name": "Monitor Cardholder Data Access",
+          "items": [
+            {
+              "requirement": "Implement mechanisms to track and monitor all access to cardholder data.",
+              "id": "092b9777-b047-4f4d-9499-d4d77febdfec"
+            },
+            {
+              "requirement": "Regularly review logs and security events for suspicious activities.",
+              "id": "ff3dfdd4-ca8e-4b43-8b5b-1576035f7a3d"
+            }
+          ],
+          "id": "d0418ff5-aaa7-4a10-80c4-0e809cbee55f"
+        },
+        {
+          "name": "Perform Vulnerability Scans",
+          "items": [
+            {
+              "requirement": "Perform regular internal and external vulnerability scans of the environment.",
+              "id": "8459e863-6b42-4352-9dff-afa9d22569f7"
+            },
+            {
+              "requirement": "Address identified vulnerabilities in a timely manner.",
+              "id": "29b7ce29-9888-45f9-8ab6-ebbea1a9825f"
+            }
+          ],
+          "id": "7883be56-8083-445f-aafa-1678929fb444"
+        },
+        {
+          "name": "Penetration Testing",
+          "items": [
+            {
+              "requirement": "Perform penetration testing at least annually and after any significant infrastructure or application changes.",
+              "id": "4b1e362c-08d6-415c-971a-0346cffde7d9"
+            },
+            {
+              "requirement": "Remediate identified vulnerabilities and conduct retesting.",
+              "id": "fef639a4-1290-4ab1-b60d-92aecc7d2c9e"
+            }
+          ],
+          "id": "24915e29-4339-4f0b-a01f-22b8c36b0980"
+        }
+      ],
+      "id": "9e182468-61d0-4b88-a0a3-bc22d5763d21"
+    },
+    {
+      "title": "Maintain an Information Security Policy",
+      "subcategory": [
+        {
+          "name": "Information Security Policy",
+          "items": [
+            {
+              "requirement": "Develop and maintain a comprehensive information security policy.",
+              "id": "98679a5d-22db-4eca-8603-1736a6cbe17b"
+            },
+            {
+              "requirement": "Distribute the policy to all relevant personnel and ensure their understanding and compliance.",
+              "id": "433eeb9b-fdd1-41f3-97f1-2fe3b9253f90"
+            }
+          ],
+          "id": "98abcdbe-0103-4e46-a555-54a88a2b10f6"
+        },
+        {
+          "name": "Employee Training",
+          "items": [
+            {
+              "requirement": "Implement a formal security awareness program for all personnel.",
+              "id": "89fae11c-87a3-437c-93a2-7217fb637c62"
+            },
+            {
+              "requirement": "Provide training on information security policies and procedures.",
+              "id": "24de3cd9-af1b-4fe6-b195-6043025f1052"
+            }
+          ],
+          "id": "7284dae5-8504-43b9-8f99-11cfede064a5"
+        },
+        {
+          "name": "Incident Response Plan",
+          "items": [
+            {
+              "requirement": "Develop and maintain an incident response plan.",
+              "id": "42e4bf48-ad06-44c6-ba71-732c7e258fcd"
+            },
+            {
+              "requirement": "Test the incident response plan at least annually and update it as necessary.",
+              "id": "c71a471f-17b1-44a1-9f13-826ac2d5d644"
+            }
+          ],
+          "id": "64d35355-b7fa-4986-9401-8468bcd98e4a"
+        }
+      ],
+      "id": "5c05acf0-9583-4906-a310-c5a7c83e9d56"
+    }
+  ],
+  "id": "pci_dss"
+}

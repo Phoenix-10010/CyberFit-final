@@ -1,0 +1,334 @@
+{
+  "category": [
+    {
+      "title": "Prepare the Organization (PO)",
+      "alt-title": "Organizations should ensure that their people, processes, and technology are prepared to perform secure software development at the organization level. Many organizations will find some PO practices to also be applicable to subsets of their secure software development, like individual development groups or projects.",
+      "subcategory": [
+        {
+          "name": "Define Security Requirements for Software Development (PO.1)",
+          "detail": "Ensure that security requirements for software development are known at all times so that they can be taken into account throughout the SDLC and duplication of effort can be minimized because the requirements information can be collected once and shared. This includes requirements from internal sources (e.g., the organization’s policies, business objectives, and risk management strategy) and external sources (e.g., applicable laws and regulations).",
+          "items": [
+            {
+              "requirement": "PO.1.1: Identify and document all security requirements for the organization’s software development infrastructures and processes, and maintain the requirements over time.",
+              "id": "3a596b65-b2a1-4057-b2c3-0cd3da483dbe"
+            },
+            {
+              "requirement": "PO.1.2: Identify and document all security requirements for the organization’s software development projects, and maintain the requirements over time.",
+              "id": "5abfeb14-2cf2-4db2-9142-052673a212db"
+            },
+            {
+              "requirement": "PO.1.3: Communicate requirements to all third parties who will provide commercial software components to the organization for reuse by the organization’s own software.",
+              "id": "ab54ef81-8acf-4a6e-b9ba-99201a1f6f40"
+            }
+          ],
+          "id": "e7ffbe71-e3f6-4d4d-bc8e-cab76b5eb9b6"
+        },
+        {
+          "name": "Implement Roles and Responsibilities (PO.2)",
+          "detail": "Ensure that everyone inside and outside of the organization involved in the SDLC is prepared to perform their SDLC-related roles and responsibilities throughout the SDLC.",
+          "items": [
+            {
+              "requirement": "PO.2.1: Create new roles and alter responsibilities of existing roles as needed to encompass all parts of the SDLC. Periodically review and maintain the roles and responsibilities, updating them as needed.",
+              "id": "c3cbc867-14f1-4aa8-8415-0592add5c7c7"
+            },
+            {
+              "requirement": "PO.2.2: Provide role-based training for all personnel with responsibilities that contribute to secure development. Periodically review personnel proficiency and role-based training, and update the training as needed.",
+              "id": "b89e9380-850f-4e7d-bc29-fa98510fc370"
+            },
+            {
+              "requirement": "PO.2.3: Obtain upper management or authorizing official commitment to secure development, and convey that commitment to all with development-related roles and responsibilities.",
+              "id": "966e5c39-06f8-4a41-b552-cb07f16eb55c"
+            }
+          ],
+          "id": "731d3d11-7def-4075-82ef-b7ac885db430"
+        },
+        {
+          "name": "Implement Supporting Toolchains (PO.3)",
+          "detail": "Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.",
+          "items": [
+            {
+              "requirement": "PO.3.1: Specify which tools or tool types must or should be included in each toolchain to mitigate identified risks, as well as how the toolchain components are to be integrated with each other.",
+              "id": "f6117431-0fa6-4473-ad55-ed049505b1c1"
+            },
+            {
+              "requirement": "PO.3.2: Follow recommended security practices to deploy, operate, and maintain tools and toolchains.",
+              "id": "1f3a3e04-688b-4710-b95a-f62753d4f3f2"
+            },
+            {
+              "requirement": "PO.3.3: Configure tools to generate artifacts  of their support of secure software development practices as defined by the organization.",
+              "id": "d7d7fca5-92c6-492d-bb0d-c8cfcb6e8b89"
+            }
+          ],
+          "id": "68a63bb4-3890-44b7-9b9a-12b4e61a4ffc"
+        },
+        {
+          "name": "Define and Use Criteria for Software Security Checks (PO.4)",
+          "detail": "Help ensure that the software resulting from the SDLC meets the organization’s expectations by defining and using criteria for checking the software’s security during development.",
+          "items": [
+            {
+              "requirement": "PO.4.1: Define criteria for software security checks and track throughout the SDLC.",
+              "id": "15bee6da-1634-44e8-aca0-b027273ce687"
+            },
+            {
+              "requirement": "PO.4.2: Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.",
+              "id": "c969f19c-31b1-4ebf-9820-5ef39a0d546e"
+            }
+          ],
+          "id": "7bd06bc6-5c5c-4567-9e6e-d37b6705f973"
+        },
+        {
+          "name": "Implement and Maintain Secure Environment for Software Development (PO.5)",
+          "detail": "Ensure that all components of the environments for software development are strongly protected from internal and external threats to prevent compromises of the environments or the software being developed or maintained within them. Examples of environments for software development include development, build, test, and distribution environments.",
+          "items": [
+            {
+              "requirement": "PO.5.1: Separate and protect each environment involved in software development.",
+              "id": "c713c6a9-ca11-4a27-9243-cf4b51d10787"
+            },
+            {
+              "requirement": "PO.5.2: Secure and harden development endpoints (i.e., endpoints for software designers, developers, testers, builders, etc.) to perform development-related tasks using a risk-based approach.",
+              "id": "940bd18a-02bf-445c-a498-3890486e7026"
+            }
+          ],
+          "id": "9a5193e5-0308-4431-b49a-b2a46b68a708"
+        }
+      ],
+      "id": "88a2f369-9548-4661-a3f7-0fef94a81008"
+    },
+    {
+      "title": "Protect Software (PS)",
+      "alt-title": "Organizations should protect all components of the software from tampering and unauthorized access throughout the SDLC. Many organizations will find some PS practices to also be applicable to subsets of their secure software development, like individual development groups or projects.",
+      "subcategory": [
+        {
+          "name": "Protect All Forms of Code from Unauthorized Access and Tampering (PS.1)",
+          "detail": "Help prevent unauthorized changes to code, both inadvertent and intentional, which could circumvent or negate the intended security characteristics of the software. For code that is not intended to be publicly accessible, this helps prevent theft of the software and may make it more difficult or time-consuming for attackers to find vulnerabilities in the software.",
+          "items": [
+            {
+              "requirement": "PS.1.1: Store all forms of code – including source code, executable code, and configuration-as-code –  based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.",
+              "id": "ef3b9d1b-1c9f-404f-ba16-e579e7dc4006"
+            }
+          ],
+          "id": "805a84f1-f41c-465a-8f85-436bf6edf114"
+        },
+        {
+          "name": "Provide a Mechanism for Verifying Software Release Integrity (PS.2)",
+          "detail": "Help software acquirers ensure that the software they acquire is legitimate and has not been tampered with.",
+          "items": [
+            {
+              "requirement": "PS.2.1: Make software integrity verification information available to software acquirers.",
+              "id": "4c604528-22d2-4d46-82a5-6499c092b7e8"
+            }
+          ],
+          "id": "7bc21c12-01ec-4971-ad90-3ee7eca54d79"
+        },
+        {
+          "name": "Archive and Protect Each Software Release (PS.3)",
+          "detail": "Preserve software releases in order to help identify, analyze, and eliminate vulnerabilities discovered in the software after release.",
+          "items": [
+            {
+              "requirement": "PS.3.1: Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release.",
+              "id": "0761039c-42b4-47d8-9d93-70d1e6662455"
+            },
+            {
+              "requirement": "PS.3.2: Collect, safeguard, maintain, and share provenance data for all components of each software release (e.g., in a software bill of materials [SBOM]).",
+              "id": "e9de7095-9c57-4011-8d7b-d9f26c535769"
+            }
+          ],
+          "id": "19577be4-6a97-4fa8-b420-941fedf2ad57"
+        }
+      ],
+      "id": "59fc3eda-a9ad-4976-bc7e-09892b154b37"
+    },
+    {
+      "title": "Produce Well-Secured Software (PW)",
+      "alt-title": "Organizations should produce well-secured software with minimal security vulnerabilities in its releases",
+      "subcategory": [
+        {
+          "name": "Design Software to Meet Security Requirements and Mitigate Security Risks (PW.1)",
+          "detail": "Identify and evaluate the security requirements for the software; determine what security risks the software is likely to face during operation and how the software’s design and architecture should mitigate those risks; and justify any cases where risk-based analysis indicates that security requirements should be relaxed or waived. Addressing security requirements and risks during software design (secure by design) is key for improving software security and also helps improve development efficiency.",
+          "items": [
+            {
+              "requirement": "PW.1.1: Use forms of risk modeling – such as threat modeling, attack modeling, or attack surface mapping – to help assess the security risk for the software.",
+              "id": "61e35b33-58ae-4337-9ddf-7f56f2d1d1e9"
+            },
+            {
+              "requirement": "PW.1.2: Track and maintain the software’s security requirements, risks, and design decisions.",
+              "id": "7f139c7c-84d3-4315-afaf-38153fc25699"
+            },
+            {
+              "requirement": "PW.1.3: Where appropriate, build in support for using standardized security features and services (e.g., enabling software to integrate with existing log management, identity management, access control, and vulnerability management systems) instead of creating proprietary implementations of security features and services.",
+              "id": "0d4cab39-0a41-4881-95ff-46bbf621d840"
+            }
+          ],
+          "id": "eb3013c0-f643-412d-9a43-e14520008750"
+        },
+        {
+          "name": "Review the Software Design to Verify Compliance with Security Requirements and Risk Information (PW.2)",
+          "detail": "Help ensure that the software will meet the security requirements and satisfactorily address the identified risk information.",
+          "items": [
+            {
+              "requirement": "PW.2.1: Have 1) a qualified person (or people) who were not involved with the design and/or 2) automated processes instantiated in the toolchain review the software design to confirm and enforce that it meets all of the security requirements and satisfactorily addresses the identified risk information.",
+              "id": "e33660e5-3772-4e92-bf03-76f9d10a9b75"
+            }
+          ],
+          "id": "743c3766-cf6a-4b0a-8298-57bbdd171c4c"
+        },
+        {
+          "name": "Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality (PW.4)",
+          "detail": "Lower the costs of software development, expedite software development, and decrease the likelihood of introducing additional security vulnerabilities into the software by reusing software modules and services that have already had their security posture checked. This is particularly important for software that implements security functionality, such as cryptographic modules and protocols.",
+          "items": [
+            {
+              "requirement": "PW.4.1: Acquire and maintain well-secured software components (e.g., software libraries, modules, middleware, frameworks) from commercial, open-source, and other third-party developers for use by the organization’s software.",
+              "id": "1caec72d-0f38-4779-bde0-0de1018c6efa"
+            },
+            {
+              "requirement": "PW.4.2: Create and maintain well-secured software components in-house following SDLC processes to meet common internal software development needs that cannot be better met by third-party software components.",
+              "id": "ecda5eae-fdd2-4d22-9989-564a774daa6d"
+            },
+            {
+              "requirement": "PW.4.4: Verify that acquired commercial, open-source, and all other third-party software components comply with the requirements, as defined by the organization, throughout their life cycles.",
+              "id": "7625e974-13ec-46ff-a168-ac344e857938"
+            }
+          ],
+          "id": "488ca82f-0793-463e-b5a5-085e72be34f1"
+        },
+        {
+          "name": "Create Source Code by Adhering to Secure Coding Practices (PW.5)",
+          "detail": "Decrease the number of security vulnerabilities in the software, and reduce costs by minimizing vulnerabilities introduced during source code creation that meet or exceed organization-defined vulnerability severity criteria.",
+          "items": [
+            {
+              "requirement": "PW.5.1: Follow all secure coding practices that are appropriate to the development languages and environment to meet the organization’s requirements.",
+              "id": "39d0107f-04c2-40dd-b2fc-111493675dd5"
+            }
+          ],
+          "id": "160dc670-26e2-421f-afa3-b6810e51cbd6"
+        },
+        {
+          "name": "Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security (PW.6)",
+          "detail": "Decrease the number of security vulnerabilities in the software and reduce costs by eliminating vulnerabilities before testing occurs.",
+          "items": [
+            {
+              "requirement": "PW.6.1: Use compiler, interpreter, and build tools that offer features to improve executable security.",
+              "id": "b1fe1e69-772e-4cda-a999-98b0599a8248"
+            },
+            {
+              "requirement": "PW.6.2: Determine which compiler, interpreter, and build tool features should be used and how each should be configured, then implement and use the approved configurations.",
+              "id": "90b6ce74-875e-4d74-b1f5-d6bfcf573e9c"
+            }
+          ],
+          "id": "b2ecd96b-bf60-4df0-b08b-a51641146085"
+        },
+        {
+          "name": "Review and/or Analyze Human-Readable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements (PW.7)",
+          "detail": "Help identify vulnerabilities so that they can be corrected before the software is released to prevent exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities. Human-readable code includes source code, scripts, and any other form of code that an organization deems human-readable.",
+          "items": [
+            {
+              "requirement": "PW.7.1: Determine whether code review (a person looks directly at the code to find issues) and/or code analysis (tools are used to find issues in code, either in a fully automated way or in conjunction with a person) should be used, as defined by the organization.",
+              "id": "efb0f794-86ba-4611-946d-bcb190e1939a"
+            },
+            {
+              "requirement": "PW.7.2: Perform the code review and/or code analysis based on the organization’s secure coding standards, and record and triage all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.",
+              "id": "d6ca4314-757a-43b3-99eb-7ec27ca752d4"
+            }
+          ],
+          "id": "59890ccb-e686-4662-9810-3500bae725ab"
+        },
+        {
+          "name": "Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements (PW.8)",
+          "detail": "Help identify vulnerabilities so that they can be corrected before the software is released in order to prevent exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities and improves traceability and repeatability. Executable code includes binaries, directly executed bytecode and source code, and any other form of code that an organization deems executable.",
+          "items": [
+            {
+              "requirement": "PW.8.1: Determine whether executable code testing should be performed to find vulnerabilities not identified by previous reviews, analysis, or testing and, if so, which types of testing should be used.",
+              "id": "36d68ea4-6932-4e6b-a377-acfa191eacfc"
+            },
+            {
+              "requirement": "PW.8.2: Scope the testing, design the tests, perform the testing, and document the results, including recording and triaging all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.",
+              "id": "16504c30-e7aa-488a-933e-a401ce35ed27"
+            }
+          ],
+          "id": "10fbc768-6180-4f9c-af33-20e5c7228f08"
+        },
+        {
+          "name": "Configure Software to Have Secure Settings by Default (PW.9)",
+          "detail": "Help improve the security of the software at the time of installation to reduce the likelihood of the software being deployed with weak security settings, putting it at greater risk of compromise.",
+          "items": [
+            {
+              "requirement": "PW.9.1: Define a secure baseline by determining how to configure each setting that has an effect on security or a security-related setting so that the default settings are secure and do not weaken the security functions provided by the platform, network infrastructure, or services.",
+              "id": "fd12e1e0-9853-464a-864f-9786017b1d69"
+            },
+            {
+              "requirement": "PW.9.2: Implement the default settings (or groups of default settings, if applicable), and document each setting for software administrators.",
+              "id": "d78a031a-f4be-4155-b3ff-5c804dce5499"
+            }
+          ],
+          "id": "59b345ba-5089-40e8-b927-66a41bbbfb81"
+        }
+      ],
+      "id": "6e20d3ae-3caf-4a33-87a1-c3a4324ac0dd"
+    },
+    {
+      "title": "Respond to Vulnerabilities (RV)",
+      "alt-title": "Organizations should identify residual vulnerabilities in software releases and respond appropriately to address those vulnerabilities and prevent similar ones from occurring in the future.",
+      "subcategory": [
+        {
+          "name": "Identify and Confirm Vulnerabilities on an Ongoing Basis (RV.1)",
+          "detail": "Help ensure that vulnerabilities are identified more quickly so that they can be remediated more quickly in accordance with risk, reducing the window of opportunity for attackers.",
+          "items": [
+            {
+              "requirement": "RV.1.1: Gather information from software acquirers, users, and public sources on potential vulnerabilities in the software and third-party components that the software uses, and investigate all credible reports.",
+              "id": "70887b32-7282-4a1e-ac9b-f64ad33f3f9f"
+            },
+            {
+              "requirement": "RV.1.2: Review, analyze, and/or test the software’s code to identify or confirm the presence of previously undetected vulnerabilities.",
+              "id": "4b9f4a67-8288-40bf-ac70-74cd9cb99cd5"
+            },
+            {
+              "requirement": "RV.1.3: Have a policy that addresses vulnerability disclosure and remediation, and implement the roles, responsibilities, and processes needed to support that policy.",
+              "id": "58c984c3-b29c-4af4-a8db-7e1175542cd0"
+            }
+          ],
+          "id": "8c22d430-09e5-4ff8-a19e-b8dba887d316"
+        },
+        {
+          "name": "Assess, Prioritize, and Remediate Vulnerabilities (RV.2)",
+          "detail": "Help ensure that vulnerabilities are remediated in accordance with risk to reduce the window of opportunity for attackers.",
+          "items": [
+            {
+              "requirement": "RV.2.1: Analyze each vulnerability to gather sufficient information about risk to plan its remediation or other risk response.",
+              "id": "df880d4c-58a8-4b68-8ca7-eb8f2e844dc8"
+            },
+            {
+              "requirement": "RV.2.2: Plan and implement risk responses for vulnerabilities.",
+              "id": "5128f400-b762-4a0a-a202-0f6ef5a7bde1"
+            }
+          ],
+          "id": "00084e5b-d5b1-499e-b46f-b7663658588d"
+        },
+        {
+          "name": "Analyze Vulnerabilities to Identify Their Root Causes (RV.3)",
+          "detail": "Help reduce the frequency of vulnerabilities in the future.",
+          "items": [
+            {
+              "requirement": "RV.3.1: Analyze vulnerabilities to identify their root causes.",
+              "id": "21d1e2f8-a8d6-4abc-9c19-fd75dca5ad39"
+            },
+            {
+              "requirement": "RV.3.2: Analyze the root causes over time to identify patterns, such as a particular secure coding practice not being followed consistently.",
+              "id": "01f07f3c-50e1-4c56-9dc6-d12ecfcb6f42"
+            },
+            {
+              "requirement": "RV.3.3: Review the software for similar vulnerabilities to eradicate a class of vulnerabilities, and proactively fix them rather than waiting for external reports.",
+              "id": "70ce5d08-f9c0-4aa4-b160-79568c7d6390"
+            },
+            {
+              "requirement": "RV.3.4: Review the SDLC process, and update it if appropriate to prevent (or reduce the likelihood of) the root cause recurring in updates to the software or in new software that is created.",
+              "id": "b82ef3af-7ac4-4363-be1e-920752fffe46"
+            }
+          ],
+          "id": "a991c609-d474-4fc3-999b-cbf303d9391e"
+        }
+      ],
+      "id": "13a85558-85ce-4b70-b0eb-73ea5003a14e"
+    }
+  ],
+  "id": "nist_sp800_218"
+}

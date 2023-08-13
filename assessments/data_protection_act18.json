@@ -1,0 +1,451 @@
+{
+  "id": "data_protection_act18",
+  "category": [
+    {
+      "id": "0d8ce047-8b34-4b87-89df-e000792ed4a6",
+      "title": "Data Protection Principles",
+      "subcategory": [
+        {
+          "name": "Lawfulness, Fairness, and Transparency",
+          "items": [
+            {
+              "requirement": "Process personal data lawfully, fairly, and transparently.",
+              "id": "d56baea3-5db8-476f-b061-89e212880304"
+            },
+            {
+              "requirement": "Provide individuals with clear and transparent information about the processing of their personal data.",
+              "id": "1ba6391c-0619-4b4a-9e04-f6f2f3553219"
+            },
+            {
+              "requirement": "Ensure that the processing of personal data has a lawful basis.",
+              "id": "3fa80106-314b-4fef-893c-4daded1da2ef"
+            }
+          ],
+          "id": "48b578cd-8e74-450f-b995-a4b4c2bd30da"
+        },
+        {
+          "name": "Purpose Limitation",
+          "items": [
+            {
+              "requirement": "Collect and process personal data only for specified, explicit, and legitimate purposes.",
+              "id": "692bbafb-bd04-48e6-b8bc-54b11752879d"
+            },
+            {
+              "requirement": "Ensure that the processing of personal data is compatible with the purposes for which it was collected.",
+              "id": "19e717a7-9bb2-4444-9612-d3d695f118b8"
+            }
+          ],
+          "id": "75289218-0880-44e8-bbfb-99cdb4fffabb"
+        },
+        {
+          "name": "Data Minimization",
+          "items": [
+            {
+              "requirement": "Collect and process only the personal data that is necessary for the intended purpose.",
+              "id": "424e95d0-cfbc-4639-bf9f-458f1ccc62ff"
+            },
+            {
+              "requirement": "Ensure that the personal data collected is adequate, relevant, and limited to what is necessary.",
+              "id": "9ce6e918-6ac6-4866-aed5-2fae9cc06a68"
+            }
+          ],
+          "id": "6844dc21-98b8-43b8-8103-2ef8e7b33309"
+        },
+        {
+          "name": "Accuracy",
+          "items": [
+            {
+              "requirement": "Ensure that the personal data is accurate and kept up to date.",
+              "id": "581acba9-78b7-4909-854b-09ad81b8e74d"
+            },
+            {
+              "requirement": "Take reasonable steps to rectify or erase inaccurate personal data.",
+              "id": "77a4dbca-f4f7-49cc-af96-1c514a74e85b"
+            }
+          ],
+          "id": "e09cc15a-723c-4e6d-b678-fa8b5dc23a14"
+        },
+        {
+          "name": "Storage Limitation",
+          "items": [
+            {
+              "requirement": "Retain personal data for no longer than necessary for the intended purpose.",
+              "id": "2a1ab752-9f14-4dd5-b0cf-40e0db642497"
+            },
+            {
+              "requirement": "Establish retention periods for different categories of personal data.",
+              "id": "30eab84a-5df6-4f10-b650-0277831da083"
+            }
+          ],
+          "id": "5a2f5ba6-ee32-4cf8-af81-a652529e3238"
+        },
+        {
+          "name": "Integrity and Confidentiality",
+          "items": [
+            {
+              "requirement": "Implement appropriate technical and organizational measures to ensure the security of personal data.",
+              "id": "19b8d7b7-5baa-4454-aae2-b4e6690aae61"
+            },
+            {
+              "requirement": "Protect personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.",
+              "id": "d3dcd0cd-625c-4bff-80e8-d9691e63d5c9"
+            }
+          ],
+          "id": "3e8502cb-d85b-4f88-b7a3-63558e17a96a"
+        },
+        {
+          "name": "Accountability",
+          "items": [
+            {
+              "requirement": "Take responsibility for compliance with the Data Protection Act 2018.",
+              "id": "971a845b-455e-484d-8a42-984b6b091552"
+            },
+            {
+              "requirement": "Implement policies, procedures, and documentation to demonstrate compliance.",
+              "id": "2b65b998-91a7-44d0-9ac9-86caa1697115"
+            },
+            {
+              "requirement": "Conduct data protection impact assessments for high-risk processing activities.",
+              "id": "f26d50bf-21c0-4765-ba9a-d8a18fad8b5b"
+            }
+          ],
+          "id": "270af2f1-1492-489a-86a4-36001b6f05a9"
+        }
+      ]
+    },
+    {
+      "id": "7fe0fab4-a72b-40b7-b944-ec215ce6b925",
+      "title": "Individual Rights",
+      "subcategory": [
+        {
+          "name": "Right to be Informed",
+          "items": [
+            {
+              "requirement": "Provide individuals with clear and concise information about how their personal data is processed.",
+              "id": "766dd20c-163a-4b9e-9966-38ea2cb59b4e"
+            },
+            {
+              "requirement": "Inform individuals about their rights under the Data Protection Act 2018.",
+              "id": "16a30029-c5e2-4a58-b3e8-e9145020f69e"
+            }
+          ],
+          "id": "37aaaf37-f436-4828-add8-5c74677a3ce8"
+        },
+        {
+          "name": "Right of Access",
+          "items": [
+            {
+              "requirement": "Respond to requests from individuals to access their personal data.",
+              "id": "57406a6d-ad62-4618-9ea4-0ee82ef17604"
+            },
+            {
+              "requirement": "Provide individuals with a copy of their personal data in a structured, commonly used, and machine-readable format.",
+              "id": "7ba9cf96-5c94-486a-a105-284cdd5c66b8"
+            }
+          ],
+          "id": "22d9ff81-b778-4747-8458-331641deb828"
+        },
+        {
+          "name": "Right to Rectification",
+          "items": [
+            {
+              "requirement": "Rectify inaccurate or incomplete personal data upon request from the individual.",
+              "id": "82341510-52a7-4a1c-8807-ae501e7c3450"
+            },
+            {
+              "requirement": "Ensure that third parties who have received the personal data are informed of the rectification.",
+              "id": "6c8a03b6-35b6-4a72-a411-78de9dead131"
+            }
+          ],
+          "id": "fb75c6d4-5576-422d-b4ab-a5b25eab081d"
+        },
+        {
+          "name": "Right to Erasure",
+          "items": [
+            {
+              "requirement": "Erase personal data when it is no longer necessary for the purpose it was collected or processed.",
+              "id": "521fd7f4-8f26-4eb2-8232-695e49a42e38"
+            },
+            {
+              "requirement": "Comply with requests from individuals to delete their personal data.",
+              "id": "4f27984b-e4e6-4038-b307-959cd6a8bbdc"
+            }
+          ],
+          "id": "9e7b386a-925f-435e-b8db-e9f89e7a908d"
+        },
+        {
+          "name": "Right to Restrict Processing",
+          "items": [
+            {
+              "requirement": "Restrict the processing of personal data upon request from the individual.",
+              "id": "239ab426-e505-4ded-9bb4-3cd333f705e6"
+            },
+            {
+              "requirement": "Inform individuals when the restriction is lifted.",
+              "id": "8455a6a8-710c-4455-b057-3dcc60dd3366"
+            }
+          ],
+          "id": "b4b44f23-3ac8-412e-8076-69df09a5d89f"
+        },
+        {
+          "name": "Right to Data Portability",
+          "items": [
+            {
+              "requirement": "Provide individuals with their personal data in a structured, commonly used, and machine-readable format.",
+              "id": "fc2d134d-7b17-4324-809d-251fb2e64214"
+            },
+            {
+              "requirement": "Facilitate the transfer of personal data to another data controller upon request.",
+              "id": "6b9b2045-22d7-4788-af29-a50d1537e3ad"
+            }
+          ],
+          "id": "c263a34d-e78f-46f1-8016-bc9c55084efe"
+        },
+        {
+          "name": "Rights in Relation to Automated Decision Making and Profiling",
+          "items": [
+            {
+              "requirement": "Inform individuals about the existence of automated decision-making, including profiling, and its consequences.",
+              "id": "4e10c441-dd69-4140-8599-14bb9c71a95d"
+            },
+            {
+              "requirement": "Obtain explicit consent or implement suitable safeguards for automated decision-making that produces legal effects or similarly significant effects.",
+              "id": "9ddddb02-53f8-4c53-bd24-25ab85231514"
+            }
+          ],
+          "id": "e90d15f1-0d06-44da-b73e-752d34380635"
+        }
+      ]
+    },
+    {
+      "id": "f03737d0-5ed9-4961-80f3-f7065d2cb42a",
+      "title": "Accountability and Governance",
+      "subcategory": [
+        {
+          "name": "Data Protection Officer (DPO)",
+          "items": [
+            {
+              "requirement": "Appoint a Data Protection Officer if required by the Data Protection Act 2018.",
+              "id": "bb88bc6b-f8f6-4c70-9964-cda9aa49c1a9"
+            },
+            {
+              "requirement": "Ensure that the DPO has appropriate expertise, support, and independence to carry out their tasks.",
+              "id": "d5e00488-7685-4f07-bc67-7eb199df99ca"
+            }
+          ],
+          "id": "f24b12f6-ef93-41bf-9d5d-507af12ae1f4"
+        },
+        {
+          "name": "Privacy by Design and Default",
+          "items": [
+            {
+              "requirement": "Implement privacy by design principles in the development of new processes, products, and services.",
+              "id": "e58a20ac-762f-4050-8801-7f38db426402"
+            },
+            {
+              "requirement": "Ensure that privacy settings are set to the most privacy-friendly options by default.",
+              "id": "71d00975-8d61-4c16-a368-175810d95070"
+            }
+          ],
+          "id": "ba8bd6b5-dc8b-4e2c-96bd-559c2bed43d1"
+        },
+        {
+          "name": "Data Protection Impact Assessment (DPIA)",
+          "items": [
+            {
+              "requirement": "Conduct a DPIA for high-risk processing activities.",
+              "id": "b1a4a096-d10b-41e5-89f6-d3f36dc74d7a"
+            },
+            {
+              "requirement": "Involve the DPO in the DPIA process.",
+              "id": "bd39a65c-8fd9-4bc7-af46-c982b8b5d83b"
+            },
+            {
+              "requirement": "Address identified risks and implement necessary measures to mitigate them.",
+              "id": "5f134c92-0299-40ef-a073-51253d3b779b"
+            }
+          ],
+          "id": "73ab4354-82c6-48b0-ab54-f92477cf150f"
+        },
+        {
+          "name": "Records of Processing Activities",
+          "items": [
+            {
+              "requirement": "Maintain a record of processing activities conducted under your responsibility.",
+              "id": "beaa3338-e51f-4d7e-b947-cbc3d6bcd08b"
+            },
+            {
+              "requirement": "Include specific information in the record as required by the Data Protection Act 2018.",
+              "id": "7f23f54b-46b0-456d-af6f-79209e5c147b"
+            }
+          ],
+          "id": "907bc269-4f83-4ae5-b603-ecd4775412c1"
+        },
+        {
+          "name": "Security of Processing",
+          "items": [
+            {
+              "requirement": "Implement appropriate technical and organizational measures to ensure the security of personal data processing.",
+              "id": "bedb05a3-0ee4-4f2e-a0e6-8e7f8bffb10b"
+            },
+            {
+              "requirement": "Regularly assess and evaluate the effectiveness of security measures.",
+              "id": "a88e15f6-5bf1-4dd4-8fbe-309f0f329a24"
+            }
+          ],
+          "id": "40b330f0-b852-4b90-b767-76bc2170a8eb"
+        }
+      ]
+    },
+    {
+      "id": "30d8b1a5-7064-4651-b33a-d717b5ef41c5",
+      "title": "International Data Transfers",
+      "subcategory": [
+        {
+          "name": "Transfer Mechanisms",
+          "items": [
+            {
+              "requirement": "Ensure that personal data transferred outside the European Economic Area (EEA) is adequately protected.",
+              "id": "7a5e44db-52f5-4368-bad3-c0fe1488c442"
+            },
+            {
+              "requirement": "Use appropriate transfer mechanisms such as Standard Contractual Clauses or Binding Corporate Rules.",
+              "id": "652684a9-dd7b-4235-8d23-b8b0ece90997"
+            }
+          ],
+          "id": "978d847d-1ea7-4011-a833-b925b1749e41"
+        },
+        {
+          "name": "Data Transfers to Third Countries",
+          "items": [
+            {
+              "requirement": "Assess the level of protection provided by the third country and implement additional safeguards if necessary.",
+              "id": "56da8739-9b9d-4a4a-91f2-7fed55b49262"
+            },
+            {
+              "requirement": "Inform individuals about the transfer of their personal data to a third country and the associated risks.",
+              "id": "bd68ae34-f831-4093-ae6e-276154038779"
+            }
+          ],
+          "id": "8509a5e2-ee27-4075-a4a0-0963a2115f3f"
+        }
+      ]
+    },
+    {
+      "id": "d0ae38bf-7dac-4ccc-b2d9-5514bda49134",
+      "title": "Data Breach Management",
+      "subcategory": [
+        {
+          "name": "Data Breach Detection and Response",
+          "items": [
+            {
+              "requirement": "Implement measures to detect and promptly respond to data breaches.",
+              "id": "1da7c3ed-578e-4866-bb7c-a70dc6aeab85"
+            },
+            {
+              "requirement": "Have procedures in place to assess the risks to individuals' rights and freedoms in the event of a data breach.",
+              "id": "9b1ee128-ce5f-492c-a3b7-c00f289f2e9e"
+            }
+          ],
+          "id": "2750501f-f21b-4dfb-8aa6-c4908178efd2"
+        },
+        {
+          "name": "Notification of Data Breaches",
+          "items": [
+            {
+              "requirement": "Notify the supervisory authority of a data breach without undue delay and, where feasible, within 72 hours.",
+              "id": "ef10d42a-02ad-4a43-8b40-4a32925c21d5"
+            },
+            {
+              "requirement": "Notify affected individuals of a data breach if it is likely to result in a high risk to their rights and freedoms.",
+              "id": "fc182c19-41a1-4126-81e2-0d0ea2a25ede"
+            }
+          ],
+          "id": "04c4b0d4-6ae4-403b-905e-bfc54128b5c1"
+        }
+      ]
+    },
+    {
+      "id": "5eb1da1d-5fdf-4e81-a13d-6e2ec275fef3",
+      "title": "Data Subject Rights",
+      "subcategory": [
+        {
+          "name": "Subject Access Requests",
+          "items": [
+            {
+              "requirement": "Respond to subject access requests from individuals.",
+              "id": "16567486-531d-4e8f-b0d6-61e8bff00de1"
+            },
+            {
+              "requirement": "Provide individuals with access to their personal data and any supplementary information.",
+              "id": "74a73cfa-8d11-4567-9367-cc36880b6c85"
+            }
+          ],
+          "id": "318559f7-80d5-4f36-8080-1e4542ea86e6"
+        },
+        {
+          "name": "Rights to Rectification and Erasure",
+          "items": [
+            {
+              "requirement": "Process requests from individuals to rectify or erase their personal data.",
+              "id": "32d4b7c8-4aa0-454e-bb5a-04dc83eea427"
+            },
+            {
+              "requirement": "Inform third parties about rectification or erasure of personal data, where applicable.",
+              "id": "ad8020e3-a816-4da8-a570-02c4050ab0d8"
+            }
+          ],
+          "id": "3bbc5ed6-4f0b-4900-9f9b-217be57528f3"
+        },
+        {
+          "name": "Rights to Restriction and Objection",
+          "items": [
+            {
+              "requirement": "Process requests from individuals to restrict or object to the processing of their personal data.",
+              "id": "5bccc86e-44a6-47f1-98e6-4484e2866106"
+            },
+            {
+              "requirement": "Inform individuals about the outcome of their requests and any further actions taken.",
+              "id": "f0b5aaf1-1ab7-4656-85b4-0c4367b2adf3"
+            }
+          ],
+          "id": "a5893106-3c3e-4855-b2af-25e6aada759a"
+        }
+      ]
+    },
+    {
+      "id": "125c0f79-d274-41fe-8a50-c62f89a189c6",
+      "title": "Enforcement and Sanctions",
+      "subcategory": [
+        {
+          "name": "Compliance with the Data Protection Act 2018",
+          "items": [
+            {
+              "requirement": "Comply with the provisions of the Data Protection Act 2018 and any relevant codes of conduct or sector-specific legislation.",
+              "id": "0db5e42b-a8f4-4381-9991-c4dc8f461474"
+            },
+            {
+              "requirement": "Cooperate with the supervisory authority and provide requested information.",
+              "id": "25f8a8f0-9377-4b45-9023-23648b28be0b"
+            }
+          ],
+          "id": "5812cc11-717e-406d-8c83-69985e410a8a"
+        },
+        {
+          "name": "Sanctions for Non-Compliance",
+          "items": [
+            {
+              "requirement": "Understand the potential sanctions for non-compliance with the Data Protection Act 2018.",
+              "id": "733ff870-4f11-4b78-9f65-b3c85f72348d"
+            },
+            {
+              "requirement": "Take necessary measures to prevent non-compliance and mitigate risks.",
+              "id": "b5e6e253-7e3e-4708-ac57-b01baad948e0"
+            }
+          ],
+          "id": "b3609341-921e-4278-8125-a524e6e61543"
+        }
+      ]
+    }
+  ]
+}

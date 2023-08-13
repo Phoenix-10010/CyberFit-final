@@ -1,0 +1,189 @@
+{
+  "category": [
+    {
+      "title": "Device Identification (DI)",
+      "alt-title": "The IoT device can be uniquely identified logically and physically.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "DI-1 A unique logical identifier.",
+              "id": "f3d1cfbf-7a92-447b-99a7-36520515e34a"
+            },
+            {
+              "requirement": "DI-2 A unique physical identifier at an external or internal location on the device authorized entities can access.",
+              "id": "ffb5ce17-e0fd-48f2-8e15-4ec44b442f89"
+            }
+          ],
+          "id": "6d5f39d8-5a94-47a7-9f85-3b56a5409046"
+        }
+      ],
+      "id": "070c6574-34a8-47f5-ba4a-d81ec7acd9eb"
+    },
+    {
+      "title": "Device Configuration (DC)",
+      "alt-title": "The configuration of the IoT device's software can be changed, and such changes can be performed by authorized entities.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "DC-1 The ability to change the device’s software configuration settings",
+              "id": "ef29fa90-281e-40a0-966e-ce43e85033d6"
+            },
+            {
+              "requirement": "DC-2 The ability to restrict configuration changes to authorized entities only",
+              "id": "1643423c-8296-4aa6-8581-c1d918103901"
+            },
+            {
+              "requirement": "DC-3 The ability for authorized entities to restore the device to a secure configuration defined by an authorized entity",
+              "id": "9b29c10c-b0b1-486d-bce0-1839936ab585"
+            }
+          ],
+          "id": "1f063ea7-04ec-49f3-acdf-a9192167dcac"
+        }
+      ],
+      "id": "7efa7523-66e4-4934-80ea-2453d1838264"
+    },
+    {
+      "title": "Data Protection (DP)",
+      "alt-title": "The IoT device can protect the data it stores and transmits from unauthorized access and modification.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "DP-1 The ability to use demonstrably secure cryptographic modules for standardized cryptographic algorithms (e.g., encryption with authentication, cryptographic hashes, digital signature validation) to prevent the confidentiality and integrity of the device’s stored and transmitted data from being compromised",
+              "id": "b5ca60b0-fad4-4abb-9a60-7c3b57f2ef43"
+            },
+            {
+              "requirement": "DP-2 The ability for authorized entities to render all data on the device inaccessible by all entities, whether previously authorized or not (e.g., through a wipe of internal storage, destruction of cryptographic keys for encrypted data)",
+              "id": "4c6898bf-fcbb-4b7b-b733-9f9800d30ab6"
+            },
+            {
+              "requirement": "DP-3 The ability to protect data in use",
+              "id": "833807dd-a987-46bd-a65b-e988fe9bdf16"
+            },
+            {
+              "requirement": "DP-3 Configuration settings for use with the Device Configuration capability including, but not limited to, the ability for authorized entities to configure the cryptography use itself, such as choosing a key length",
+              "id": "6ffc436b-91a9-4183-8adc-e95b1de83ea8"
+            },
+            {
+              "requirement": "DP-5 The ability to restrict data modification to authorized entities only",
+              "id": "45909543-911d-4d46-b146-46c2b545926b"
+            }
+          ],
+          "id": "e937753d-e251-4111-98ea-80cc2a60e1d3"
+        }
+      ],
+      "id": "229a39e7-6c3b-4293-b6cc-57babc5b065f"
+    },
+    {
+      "title": "Logical Access to Interfaces (LA)",
+      "alt-title": "The IoT device can restrict logical access to its local and network interfaces, and the protocols and services used by those interfaces, to authorized entities only.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "LA-1 The ability to logically or physically disable any local and network interfaces that are not necessary for the core functionality of the device",
+              "id": "f5551768-f6a2-4102-81eb-481c50b55b44"
+            },
+            {
+              "requirement": "LA-2 The ability to logically restrict access to each network interface to only authorized entities (e.g., device authentication, user authentication)",
+              "id": "d5600144-a781-4d53-8414-a311d43bf31d"
+            },
+            {
+              "requirement": "LA-3 Configuration settings for use with the Device Configuration capability including, but not limited to, the ability to enable, disable, and adjust thresholds for any ability the device might have to lock or disable an account or to delay additional authentication attempts after too many failed authentication attempts",
+              "id": "379c75ba-a8b8-4700-b066-68b04fa82d10"
+            }
+          ],
+          "id": "13274213-d20b-4fbc-be7d-be11f0906729"
+        }
+      ],
+      "id": "d35cd342-e85c-4742-a627-4b7ad21f5c44"
+    },
+    {
+      "title": "Software Update (SU)",
+      "alt-title": "The IoT device’s software can be updated by authorized entities only using a secure and configurable mechanism.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "SU-1 The ability to update the device’s software through remote (e.g., network download) and/or local means (e.g., removable media)",
+              "id": "bcb9cc8c-7f48-4309-a38a-aa67fda4cea0"
+            },
+            {
+              "requirement": "SU-2 The ability to verify and authenticate any update before installing it",
+              "id": "94728df2-2764-435f-aed3-ffd8a484a883"
+            },
+            {
+              "requirement": "SU-3 The ability for authorized entities to roll back updated software to a previous version",
+              "id": "be27d988-9d24-441c-8eb6-8c89b042289b"
+            },
+            {
+              "requirement": "SU-4 The ability to restrict updating actions to authorized entities only",
+              "id": "2f37bad2-f27c-4202-a1e2-e6892ef96076"
+            },
+            {
+              "requirement": "SU-5 The ability to enable or disable updating",
+              "id": "b67daf67-234a-46f0-8637-264adaafcc06"
+            },
+            {
+              "requirement": "SU-6 Configuration settings for use with the Device Configuration capability including, but not limited to:",
+              "id": "d195cbd2-2399-48e9-96d7-91709544c8df"
+            },
+            {
+              "requirement": "SU-6a The ability to configure any remote update mechanisms to be either automatically or manually initiated for update downloads and installations",
+              "id": "36207eaa-92d1-44e2-a9ee-f8e27af4a6df"
+            },
+            {
+              "requirement": "SU-6b The ability to enable or disable notification when an update is available and specify who or what is to be notified",
+              "id": "1ed6b7e5-e55a-4cde-bfe6-263dd98e09dd"
+            },
+            {
+              "requirement": "SU-6.3 The ability to enable or disable the ability to roll back updated software to a previous version",
+              "id": "db129c10-6f08-4aa0-b534-ed0d435ec6e0"
+            },
+            {
+              "requirement": "SU-6.4 The ability to enable or disable the ability to verify and authenticate any update before installing it",
+              "id": "4f7783eb-9add-4984-beaf-e8af1cfe5527"
+            }
+          ],
+          "id": "042f0377-e54e-48b4-9775-17b5380b25ab"
+        }
+      ],
+      "id": "d3de59b1-eef7-4fec-a058-0dc954dcb0da"
+    },
+    {
+      "title": "Cybersecurity State Awareness (CSA)",
+      "alt-title": "The IoT device can report on its cybersecurity state and make that information accessible to authorized entities only.",
+      "subcategory": [
+        {
+          "items": [
+            {
+              "requirement": "CSA-1 The ability to report the device’s cybersecurity state",
+              "id": "0531dc02-d662-4408-aa71-2d2aaa6fb7fa"
+            },
+            {
+              "requirement": "CSA-2 The ability to differentiate between when a device will likely operate as expected from when it may be in a degraded cybersecurity state",
+              "id": "9acf1eea-6786-4bef-b87f-64e70f1c33ea"
+            },
+            {
+              "requirement": "CSA-3 The ability to restrict access to the state indicator so only authorized entities can view it",
+              "id": "30c4df48-d694-4d63-8640-f84104909101"
+            },
+            {
+              "requirement": "CSA-4 The ability to prevent any entities (authorized or unauthorized) from editing the state except for those entities that are responsible for maintaining the device’s state information",
+              "id": "e58d13df-0090-4fab-9596-38494cc7ea4b"
+            },
+            {
+              "requirement": "CSA-5 The ability to make the state information available to a service on another device, such as an event/state log server",
+              "id": "ffd2a2a3-d15c-4a59-a0e5-79924dd6ccd9"
+            }
+          ],
+          "id": "0ef43e00-0111-411c-9163-66e5efebfdbd"
+        }
+      ],
+      "id": "713e5482-1286-4a0d-8943-6abb1d1511c8"
+    }
+  ],
+  "id": "nist_ir_825"
+}

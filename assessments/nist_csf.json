@@ -1,0 +1,633 @@
+{
+  "category": [
+    {
+      "title": "IDENTIFY (ID)",
+      "alt-title": "Developing an organizational understanding to manage cybersecurity risk to systems, assets, data, and capabilities",
+      "subcategory": [
+        {
+          "name": "Asset Management (ID.AM)",
+          "detail": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization’s risk strategy.",
+          "items": [
+            {
+              "requirement": "ID.AM-1: Physical devices and systems within the organization are inventoried",
+              "id": "47c20ac1-06e6-4421-b9f5-327f898c9d08"
+            },
+            {
+              "requirement": "ID.AM-2: Software platforms and applications within the organization are inventoried",
+              "id": "7cc00e44-8edf-4193-902e-effbbf020acd"
+            },
+            {
+              "requirement": "ID.AM-3: Organizational communication and data flows are mapped",
+              "id": "3e62cba9-8cab-4113-916a-089822ab36c5"
+            },
+            {
+              "requirement": "ID.AM-4: External information systems are catalogued",
+              "id": "853db565-837c-4bb0-ae64-962842723bb5"
+            },
+            {
+              "requirement": "ID.AM-5: Resources (e.g., hardware, devices, data, time, personnel, and software) are prioritized based on their classification, criticality, and business value",
+              "id": "a8b0782a-b62c-4a64-8aac-649245fdaabd"
+            },
+            {
+              "requirement": "ID.AM-6: Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established",
+              "id": "26a3af21-83f8-4335-b904-480cceffeb23"
+            }
+          ],
+          "id": "79626fe6-079b-4f9e-afcf-a7f1e2e13054"
+        },
+        {
+          "name": "Business Environment (ID.BE)",
+          "detail": "The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+          "items": [
+            {
+              "requirement": "ID.BE-1: The organization’s role in the supply chain is identified and communicated",
+              "id": "a18fadcf-7822-493f-bf43-6651b983dd09"
+            },
+            {
+              "requirement": "ID.BE-2: The organization’s place in critical infrastructure and its industry sector is identified and communicated",
+              "id": "e5aeb2c7-1925-492f-8ec7-f674294958a8"
+            },
+            {
+              "requirement": "ID.BE-3: Priorities for organizational mission, objectives, and activities are established and communicated",
+              "id": "5b2193f7-9cdb-4f29-92af-8071580cfe80"
+            },
+            {
+              "requirement": "ID.BE-4: Dependencies and critical functions for delivery of critical services are established",
+              "id": "42de1ed7-ae62-41b6-b78a-b55a76308505"
+            },
+            {
+              "requirement": "ID.BE-5: Resilience requirements to support delivery of critical services are established for all operating states (e.g. under duress/attack, during recovery, normal operations)",
+              "id": "9ed5aedb-6326-453d-9b16-637fee20b6ce"
+            }
+          ],
+          "id": "317a9a8f-b173-483b-afc0-37ad7f79830a"
+        },
+        {
+          "name": "Governance (ID.GV)",
+          "detail": "The policies, procedures, and processes to manage and monitor the organization’s regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+          "items": [
+            {
+              "requirement": "ID.GV-1: Organizational cybersecurity policy is established",
+              "id": "7623ad25-2cd8-4572-bc67-1ec21b1fdaf1"
+            },
+            {
+              "requirement": "ID.GV-2: Cybersecurity roles and responsibilities are coordinated and aligned with internal roles and external partners",
+              "id": "51af7123-0da6-4cf4-a5d9-2b4da54c90a4"
+            },
+            {
+              "requirement": "ID.GV-3: Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed",
+              "id": "23f630cb-bdd4-4eea-9f61-c0ba60007fc4"
+            },
+            {
+              "requirement": "ID.GV-4: Governance and risk management processes address cybersecurity risks",
+              "id": "da2fd971-1bc7-4595-bf63-12e1c86e2b92"
+            }
+          ],
+          "id": "ed1ee444-f4c9-4c03-b9fd-22f5b622f45c"
+        },
+        {
+          "name": "Risk Assessment (ID.RA)",
+          "detail": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+          "items": [
+            {
+              "requirement": "ID.RA-1: Asset vulnerabilities are identified and documented",
+              "id": "fe8a1167-2957-4f61-a672-2b60dfb9bf30"
+            },
+            {
+              "requirement": "ID.RA-2: Cyber threat intelligence is received from information sharing forums and sources",
+              "id": "b0a0b338-6857-4017-91f7-3f1dbc47d73f"
+            },
+            {
+              "requirement": "ID.RA-3: Threats, both internal and external, are identified and documented",
+              "id": "59998736-16b3-4fda-8323-4cdb02fef939"
+            },
+            {
+              "requirement": "ID.RA-4: Potential business impacts and likelihoods are identified",
+              "id": "c20b9282-e03f-41c8-8a19-f64ae86adb67"
+            },
+            {
+              "requirement": "ID.RA-5: Threats, vulnerabilities, likelihoods, and impacts are used to determine risk",
+              "id": "ec4a0db1-7522-4f92-bbbc-afb114114999"
+            },
+            {
+              "requirement": "ID.RA-6: The organization’s determination of risk is expressed in terms of impact to organizational operations and assets, individuals, other organizations, and the Nation",
+              "id": "758ee21c-62d2-4cd1-a8fc-3c977a09783c"
+            }
+          ],
+          "id": "0572fe91-e040-45c5-b2a4-2d3da7966b62"
+        },
+        {
+          "name": "Risk Management Strategy (ID.RM)",
+          "detail": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+          "items": [
+            {
+              "requirement": "ID.RM-1: Risk management processes are established, managed, and agreed to by organizational stakeholders",
+              "id": "3d42b8dd-f803-4296-a015-9df5bba15a3d"
+            },
+            {
+              "requirement": "ID.RM-2: Organizational risk tolerance is determined and clearly expressed",
+              "id": "17953f46-c627-4920-b096-09e0a441691c"
+            },
+            {
+              "requirement": "ID.RM-3: The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis",
+              "id": "3026da69-8442-4b32-9050-d35180e9a5c6"
+            }
+          ],
+          "id": "677c25c4-3ee6-47b7-b377-05d346742b6e"
+        },
+        {
+          "name": "Supply Chain Risk Management (ID.SC)",
+          "detail": "The organization’s priorities, constraints, risk tolerances, and assumptions are established and used to support risk decisions associated with managing supply chain risk.",
+          "items": [
+            {
+              "requirement": "ID.SC-1: Cyber supply chain risk management processes are identified, established, assessed, managed, and agreed to by organizational stakeholders",
+              "id": "b878dd5f-bc18-4d91-ad16-1644259b1cfd"
+            },
+            {
+              "requirement": "ID.SC-2: Suppliers and third-party partners of information systems, components, and services are identified, prioritized, and assessed using a cyber supply chain risk assessment process",
+              "id": "fe395587-fbc3-475d-8315-a95fff3c7237"
+            },
+            {
+              "requirement": "ID.SC-3: Contracts with suppliers and third-party partners are used to implement appropriate measures designed to meet the objectives of an organization’s cybersecurity program and Cyber Supply Chain Risk Management Plan",
+              "id": "5dfba2e8-8a80-4d93-9c3e-a5f157db07da"
+            },
+            {
+              "requirement": "ID.SC-4: Suppliers and third-party partners are routinely assessed using audits, test results, or other forms of evaluations to confirm they are meeting their contractual obligations",
+              "id": "912ba4bc-b7fe-4771-8f61-8b0f7bc7970a"
+            },
+            {
+              "requirement": "ID.SC-5: Responses to supply chain threats identified by an organizational assessment of supply chain risk are implemented",
+              "id": "d0118ceb-78ec-41e9-b0c2-f5edbccfe370"
+            }
+          ],
+          "id": "4c67be62-434b-458a-81c5-97573934208c"
+        }
+      ],
+      "id": "e11bef6b-571b-428e-8b32-2737f882ae51"
+    },
+    {
+      "title": "PROTECT (PR)",
+      "alt-title": "Develop and implement the appropriate safeguards to ensure delivery of critical infrastructure services.",
+      "subcategory": [
+        {
+          "name": "Identity Management, Authentication, and Access Control (PR.AC)",
+          "detail": "Physical and electronic access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+          "items": [
+            {
+              "requirement": "PR.AC-1: Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users and processes",
+              "id": "d9f6e128-2937-49d2-bd90-89967c18ec88"
+            },
+            {
+              "requirement": "PR.AC-2: Physical access to assets is managed and protected",
+              "id": "dd97a5e7-1418-4fed-be39-7fb843514eeb"
+            },
+            {
+              "requirement": "PR.AC-3: Remote access is managed",
+              "id": "930fb47b-ac21-4c9b-bd03-5bbde565e840"
+            },
+            {
+              "requirement": "PR.AC-4: Access permissions and authorizations are managed, incorporating the principles of least privilege and separation of duties",
+              "id": "42e51875-e25a-4805-8fa0-9e34b085ddfe"
+            },
+            {
+              "requirement": "PR.AC-5: Network integrity is protected (e.g., network segregation, network segmentation)",
+              "id": "0849d130-241f-4957-8ca2-72a5720ad392"
+            },
+            {
+              "requirement": "PR.AC-6: Identities are proofed and bound to credentials and asserted in interactions",
+              "id": "654249e5-bac4-4c6e-a59f-901450aa0d4d"
+            },
+            {
+              "requirement": "PR.AC-7: Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (e.g., individuals’ security and privacy risks and other organizational risks)",
+              "id": "9cc52967-3e48-4f40-8772-8185284c8c39"
+            }
+          ],
+          "id": "1acf1b53-a044-407c-a2ff-0c6c9a2550d8"
+        },
+        {
+          "name": "Awareness and Training (PR.AT)",
+          "detail": "The organization’s personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+          "items": [
+            {
+              "requirement": "PR.AT-1: All users are informed and trained",
+              "id": "4bf8db7c-83a2-4dd6-ba8b-68b90d405dce"
+            },
+            {
+              "requirement": "PR.AT-2: Privileged users understand their roles and responsibilities",
+              "id": "c99b59ab-9dd4-4569-a427-63b394288211"
+            },
+            {
+              "requirement": "PR.AT-3: Third-party stakeholders (e.g., suppliers, customers, partners) understand their roles and responsibilities",
+              "id": "5635917f-b980-4d4f-9098-e47bdb572676"
+            },
+            {
+              "requirement": "PR.AT-4: Senior executives understand their roles and responsibilities",
+              "id": "049190b9-69f3-446d-a5c2-b69dc13ab771"
+            },
+            {
+              "requirement": "PR.AT-5: Physical and cybersecurity personnel understand their roles and responsibilities",
+              "id": "fa2a3b17-a4e5-467c-81cd-68d4a5f263ee"
+            }
+          ],
+          "id": "ac71a0eb-6bff-4c78-aa7e-11c09d7d0503"
+        },
+        {
+          "name": "Data Security (PR.DS)",
+          "detail": "Information and records (data) are managed consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information.",
+          "items": [
+            {
+              "requirement": "PR.DS-1: Data-at-rest is protected",
+              "id": "427574c9-1e41-4cb6-b3c7-d3d9f8a3db18"
+            },
+            {
+              "requirement": "PR.DS-2: Data-in-transit is protected",
+              "id": "93d9c443-5c1a-4a51-a713-f50148b3bbba"
+            },
+            {
+              "requirement": "PR.DS-3: Assets are formally managed throughout removal, transfers, and disposition",
+              "id": "e48bd0de-c2ad-4926-8218-ae81e968f589"
+            },
+            {
+              "requirement": "PR.DS-4: Adequate capacity to ensure availability is maintained",
+              "id": "f4fee50a-7dd1-4c1d-895b-30ce04b70961"
+            },
+            {
+              "requirement": "PR.DS-5: Protections against data leaks are implemented",
+              "id": "9e16cad9-e98c-4bfd-92f3-35668e0a85ad"
+            },
+            {
+              "requirement": "PR.DS-6: Integrity checking mechanisms are used to verify software, firmware, and information integrity",
+              "id": "1eb31327-34fa-4eb1-bfbe-1bc1b4addd10"
+            },
+            {
+              "requirement": "PR.DS-7: The development and testing environment(s) are separate from the production environment",
+              "id": "03f80224-de64-4f29-a107-22b82ab0c20c"
+            },
+            {
+              "requirement": "PR.DS-8: Security features are managed, including restricting access to associated keys and passwords",
+              "id": "8b08b9b4-e47c-4761-bc90-34d89c34fdc6"
+            }
+          ],
+          "id": "dc46f98a-9471-4fbb-b68b-efa35c44ec3b"
+        },
+        {
+          "name": "Information Protection Processes and Procedures (PR.IP)",
+          "detail": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+          "items": [
+            {
+              "requirement": "PR.IP-1: A baseline configuration of information technology/industrial control systems is created and maintained incorporating security configuration settings (e.g., ports, protocols, services, passwords, and cryptography)",
+              "id": "d11e458f-61f5-43b3-9564-05737a9e55d7"
+            },
+            {
+              "requirement": "PR.IP-2: A System Development Life Cycle to manage systems is implemented",
+              "id": "a80521d4-6c48-4893-8db5-c46981f7ab7a"
+            },
+            {
+              "requirement": "PR.IP-3: Configuration change control processes are in place",
+              "id": "3f881d2a-9865-4c8b-b762-fea0f77bb608"
+            },
+            {
+              "requirement": "PR.IP-4: Backups of information are conducted, maintained, and tested",
+              "id": "c95587e2-58a1-464f-89ed-e7d4382be221"
+            },
+            {
+              "requirement": "PR.IP-5: Data is destroyed according to policy",
+              "id": "2fe92787-db27-4b4b-8974-3bcbf4a0db15"
+            },
+            {
+              "requirement": "PR.IP-6: Protection processes are improved",
+              "id": "95d8a260-b45e-442c-a50a-e4951f9d6bae"
+            },
+            {
+              "requirement": "PR.IP-7: Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed",
+              "id": "3d9a666b-7f7e-436b-8579-9e4d85b45e59"
+            },
+            {
+              "requirement": "PR.IP-8: Personnel know their roles and responsibilities",
+              "id": "a965fc46-3299-4b61-9469-c05c67371a87"
+            },
+            {
+              "requirement": "PR.IP-9: Response and recovery plans are tested",
+              "id": "dbb2bba2-3027-4695-b627-a5322beda69d"
+            },
+            {
+              "requirement": "PR.IP-10: Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)",
+              "id": "14a54615-d198-496a-8f17-df611488015c"
+            },
+            {
+              "requirement": "PR.IP-11: Personnel are adequately trained to perform their information security-related duties and responsibilities",
+              "id": "291668f4-e904-4e54-b762-eab9ef9ba0e3"
+            },
+            {
+              "requirement": "PR.IP-12: A vulnerability management plan is developed and implemented",
+              "id": "008b126d-6bd0-4bab-8e6b-cd534a775760"
+            }
+          ],
+          "id": "f8ca6f3d-a91b-4526-9db6-ef7f82863f71"
+        },
+        {
+          "name": "Maintenance (PR.MA)",
+          "detail": "Maintenance and repairs of industrial control and information system components is performed consistent with policies and procedures.",
+          "items": [
+            {
+              "requirement": "PR.MA-1: Maintenance and repair of organizational assets are performed and logged, with approved and controlled tools",
+              "id": "55c22060-0c01-484e-b8c2-ae2b4eb4913d"
+            },
+            {
+              "requirement": "PR.MA-2: Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access",
+              "id": "430b826f-bff1-4c35-a195-435c64d721ea"
+            }
+          ],
+          "id": "25734ec5-f8d2-4557-a1d7-289903b49e11"
+        },
+        {
+          "name": "Protective Technology (PR.PT)",
+          "detail": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+          "items": [
+            {
+              "requirement": "PR.PT-1: Audit/log records are determined, documented, implemented, and reviewed in accordance with policy",
+              "id": "c82fc5c7-39e4-4e57-acdc-20ae395252c5"
+            },
+            {
+              "requirement": "PR.PT-2: Removable media is protected and its use restricted according to policy",
+              "id": "2750fb99-dc3e-4760-a1ae-716599a62ba3"
+            },
+            {
+              "requirement": "PR.PT-3: Access to systems and assets is controlled, incorporating the principle of least functionality",
+              "id": "9a72d19c-172a-4538-9b50-809c4dd68344"
+            },
+            {
+              "requirement": "PR.PT-4: Communications and control networks are protected",
+              "id": "db9843a7-7b14-478f-a73e-bc0cb71ca46a"
+            },
+            {
+              "requirement": "PR.PT-5: Integrity checking mechanisms are used to verify hardware, software, and firmware integrity",
+              "id": "ad35171e-4fb6-46a5-8669-46e7ca43f166"
+            }
+          ],
+          "id": "868206fd-ee36-4da8-a5eb-1f1d2689659e"
+        }
+      ],
+      "id": "8826e1f4-5645-4b1a-8dd3-cf2f5c90062b"
+    },
+    {
+      "title": "DETECT (DE)",
+      "alt-title": "Develops and implements the appropriate activities to identify the occurrence of a cybersecurity event.",
+      "subcategory": [
+        {
+          "name": "Anomalies and Events (DE.AE)",
+          "detail": "Anomalous activity is detected and the potential impact of events is understood.",
+          "items": [
+            {
+              "requirement": "DE.AE-1: A baseline of network operations and expected data flows for users and systems is established and managed",
+              "id": "6d79f0c6-6b2e-4e93-851b-a6d2cd51a3fe"
+            },
+            {
+              "requirement": "DE.AE-2: Detected events are analyzed to understand attack targets and methods",
+              "id": "f6ac5f29-7787-4841-af7a-e88f1a77c102"
+            },
+            {
+              "requirement": "DE.AE-3: Event data are collected and correlated from multiple sources and sensors",
+              "id": "140ff006-d00f-4956-817b-48640bc6ffa0"
+            },
+            {
+              "requirement": "DE.AE-4: Impact of events is determined",
+              "id": "f02ee2a3-a6c4-466f-9bb3-e308eb889d2c"
+            },
+            {
+              "requirement": "DE.AE-5: Incident alert thresholds are established",
+              "id": "6b8578d1-b655-4e92-a6c0-097225b2238b"
+            }
+          ],
+          "id": "f5595e58-1608-4975-8b31-da98c968e968"
+        },
+        {
+          "name": "Security Continuous Monitoring (DE.CM)",
+          "detail": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+          "items": [
+            {
+              "requirement": "DE.CM-1: The network is monitored to detect potential cybersecurity events",
+              "id": "2ab71e5e-0620-41eb-b154-d08160aa3793"
+            },
+            {
+              "requirement": "DE.CM-2: The physical environment is monitored to detect potential cybersecurity events",
+              "id": "8eaa58a6-afbc-4e18-92e3-2eff316f56a3"
+            },
+            {
+              "requirement": "DE.CM-3: Personnel activity is monitored to detect potential cybersecurity events",
+              "id": "7efcaca1-9e22-426f-bdf4-566b70e01f57"
+            },
+            {
+              "requirement": "DE.CM-4: Malicious code is detected",
+              "id": "32676cb4-1673-4626-979b-e316caf6dabb"
+            },
+            {
+              "requirement": "DE.CM-5: Unauthorized mobile code is detected",
+              "id": "fdacfc0c-2ff2-4d55-8981-a5a953808f61"
+            },
+            {
+              "requirement": "DE.CM-6: External service provider activity is monitored to detect potential cybersecurity events",
+              "id": "6e052560-88f1-4db0-a3cd-d020952a3f6f"
+            },
+            {
+              "requirement": "DE.CM-7: Monitoring for unauthorized personnel, connections, devices, and software is performed",
+              "id": "af62bd8d-e973-4935-b9d9-c09078e76ffc"
+            },
+            {
+              "requirement": "DE.CM-8: Vulnerability scans are performed",
+              "id": "50d6662a-6746-45bc-98d4-da15a422bc91"
+            }
+          ],
+          "id": "0cae98d3-89f0-423b-b12e-7c93f4eef619"
+        },
+        {
+          "name": "Detection Processes (DE.DP)",
+          "detail": "Detection processes and procedures are maintained and tested to ensure awareness of anomalous events.",
+          "items": [
+            {
+              "requirement": "DE.DP-1: Roles and responsibilities for detection are well defined to ensure accountability",
+              "id": "a73a4656-2f7c-4460-a7c5-8950393ba5d9"
+            },
+            {
+              "requirement": "DE.DP-2: Detection activities comply with all applicable requirements",
+              "id": "b27e04f1-cabf-48da-9dc3-9165b3c7d281"
+            },
+            {
+              "requirement": "DE.DP-3: Detection processes are tested",
+              "id": "bf4253bb-511a-4166-8e40-7c739e1deb7d"
+            },
+            {
+              "requirement": "DE.DP-4: Event detection information is communicated",
+              "id": "b2e93be7-0c69-4758-83c0-3785188a0087"
+            },
+            {
+              "requirement": "DE.DP-5: Detection information is correlated",
+              "id": "236052c1-55f3-408d-a756-6581f9bfcdef"
+            }
+          ],
+          "id": "ca323877-d691-44cd-8e62-57ca1ae873c0"
+        }
+      ],
+      "id": "43dc7b01-ff93-41d3-a04d-fb273b68bc2a"
+    },
+    {
+      "title": "RESPOND (RS)",
+      "alt-title": "Develops and implements the appropriate activities to take action regarding a detected cybersecurity incident.",
+      "subcategory": [
+        {
+          "name": "Response Planning (RS.RP)",
+          "detail": "Response processes and procedures are executed and maintained, to ensure timely response to detected cybersecurity incidents.",
+          "items": [
+            {
+              "requirement": "RS.RP-1: Response plan is executed during or after an incident",
+              "id": "a4afa927-98b5-4740-bbd7-a1b7c5379667"
+            }
+          ],
+          "id": "a3269152-1eaa-4cd9-91cc-e46ed862fedd"
+        },
+        {
+          "name": "Communications (RS.CO)",
+          "detail": "Response activities are coordinated with internal and external stakeholders (e.g. external support from law enforcement agencies).",
+          "items": [
+            {
+              "requirement": "RS.CO-1: Personnel know their roles and order of operations when a response is needed",
+              "id": "bf392271-839a-4138-b6d7-42fb9a6977d9"
+            },
+            {
+              "requirement": "RS.CO-2: Incidents are reported consistent with established criteria",
+              "id": "0b214901-f930-450a-bb1b-c9a1d6bcdf80"
+            },
+            {
+              "requirement": "RS.CO-3: Organizational stakeholders are informed of the appropriate elements of the cybersecurity program",
+              "id": "c6427fe5-8964-4869-9fc8-09b1337a3651"
+            },
+            {
+              "requirement": "RS.CO-4: Relevant information is shared consistent with response plans",
+              "id": "dd89703b-fccb-4b80-84b2-b17f54796b68"
+            },
+            {
+              "requirement": "RS.CO-5: Coordination with stakeholders occurs consistent with response plans",
+              "id": "da6e5448-0e0b-42ae-b870-325e7b9ed1f1"
+            }
+          ],
+          "id": "67888d1f-691c-489e-9167-c8f85f74d73b"
+        },
+        {
+          "name": "Analysis (RS.AN)",
+          "detail": "Analysis is conducted to ensure effective response and support recovery activities.",
+          "items": [
+            {
+              "requirement": "RS.AN-1: Notifications from detection systems are investigated",
+              "id": "3b7c61b9-9799-4f4e-baab-2adc04c9bc77"
+            },
+            {
+              "requirement": "RS.AN-2: The impact of the incident is understood",
+              "id": "714d2585-1769-4f84-bf53-c6a8df4f0e51"
+            },
+            {
+              "requirement": "RS.AN-3: Forensics are performed",
+              "id": "c433eeed-dc3a-4b2b-b9c6-d6254403b038"
+            },
+            {
+              "requirement": "RS.AN-4: Incident is categorized consistent with response plans",
+              "id": "34d1a077-0409-4263-98ed-a52c433be362"
+            },
+            {
+              "requirement": "RS.AN-5: Processes are established to receive, analyze and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g. internal testing, security bulletins, or security researchers)",
+              "id": "7e26898c-5e40-4556-bb8e-d4521bbc112f"
+            }
+          ],
+          "id": "7c89826d-e88f-4a09-9e26-9b1def3490d1"
+        },
+        {
+          "name": "Mitigation (RS.MI)",
+          "detail": "Activities are performed to prevent expansion of an event, mitigate its effects, and resolve the incident.",
+          "items": [
+            {
+              "requirement": "RS.MI-1: Incidents are contained",
+              "id": "a5ce1bcb-3b45-46a5-8068-c5ecf0afc511"
+            },
+            {
+              "requirement": "RS.MI-2: Incidents are mitigated",
+              "id": "0cd0152d-def9-415f-a5e2-c08770ebb441"
+            },
+            {
+              "requirement": "RS.MI-3: Newly identified vulnerabilities are mitigated or documented as accepted risks",
+              "id": "1b571341-d725-4e9c-9627-4b72dad1cd22"
+            }
+          ],
+          "id": "b942614d-c125-4cb8-ac69-8551648234b0"
+        },
+        {
+          "name": "Improvements (RS.IM)",
+          "detail": "Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.",
+          "items": [
+            {
+              "requirement": "RS.IM-1: Response plans incorporate lessons learned",
+              "id": "0ca19df7-241b-4fac-9e8f-f9c10b1c8e03"
+            },
+            {
+              "requirement": "RS.IM-2: Response strategies are updated",
+              "id": "89f1e8e8-9b7e-46b3-b25f-bf2876abcbe2"
+            }
+          ],
+          "id": "9125247c-0471-4d87-a8a1-f1886816cada"
+        }
+      ],
+      "id": "32a77f0b-982a-40a9-a24a-9c3197655d4f"
+    },
+    {
+      "title": "RECOVER (RC)",
+      "alt-title": "Develops and implements the appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.",
+      "subcategory": [
+        {
+          "name": "Recovery Planning (RC.RP)",
+          "detail": "Recovery processes and procedures are executed and maintained to ensure restoration of systems or assets affected by cybersecurity incidents.",
+          "items": [
+            {
+              "requirement": "RC.RP-1: Recovery plan is executed during or after the incident",
+              "id": "c8d9e953-22f3-40a2-b2cf-dbd252abca76"
+            }
+          ],
+          "id": "f5ad9c67-85ae-49f3-aaa4-dabb199b91a5"
+        },
+        {
+          "name": "Improvements (RC.IM)",
+          "detail": "Recovery planning and processes are improved by incorporating lessons learned into future activities.",
+          "items": [
+            {
+              "requirement": "RC.IM-1: Recovery plans incorporate lessons learned",
+              "id": "a6a2ebad-a923-44e4-ad5e-8ec968cb04c4"
+            },
+            {
+              "requirement": "RC.IM-2: Recovery strategies are updated",
+              "id": "1ce551a5-e6c3-42d3-80b0-9629472b1359"
+            }
+          ],
+          "id": "c267d314-19eb-4fda-8dda-cb4031deb375"
+        },
+        {
+          "name": "Communications (RC.CO)",
+          "detail": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers (ISPs), owners of attacking systems, victims, other CSIRTs, and vendors.",
+          "items": [
+            {
+              "requirement": "RC.CO-1: Restoration activities are communicated",
+              "id": "ad18eaad-c208-41ed-bd30-deaaacf9b4cf"
+            },
+            {
+              "requirement": "RC.CO-2: Restoration activities are coordinated",
+              "id": "4f570fcb-094b-4f9c-8f53-e4a576142701"
+            },
+            {
+              "requirement": "RC.CO-3: Service providers are contacted",
+              "id": "35c0ab6a-63cf-435c-b9b3-164a9a98b655"
+            }
+          ],
+          "id": "b1ebc880-93e2-4d73-b7f7-4bfb6083fc30"
+        }
+      ],
+      "id": "44c50c75-4789-4973-bf05-0cab0bb2981b"
+    }
+  ],
+  "id": "nist_csf"
+}

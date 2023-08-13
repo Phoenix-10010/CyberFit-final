@@ -1,0 +1,235 @@
+{
+  "category": [
+    {
+      "title": "Administrative Safeguards",
+      "subcategory": [
+        {
+          "name": "Security Management Process",
+          "items": [
+            {
+              "requirement": "Implement a security management process.",
+              "id": "661ad86d-1e1a-47b9-8729-2032022b2cea"
+            },
+            {
+              "requirement": "Assign a security officer responsible for developing and implementing security policies and procedures.",
+              "id": "4590f72e-ed17-4ba2-a310-a2cf11bf58b6"
+            },
+            {
+              "requirement": "Perform a risk analysis to identify vulnerabilities and risks to ePHI.",
+              "id": "20111319-341a-4648-afae-4e2067a49b6d"
+            },
+            {
+              "requirement": "Implement measures to mitigate identified risks.",
+              "id": "84473d54-d0b3-4506-b694-2a830844e416"
+            }
+          ],
+          "id": "38f500d9-1882-44db-a065-9fd97c649f4e"
+        },
+        {
+          "name": "Security Awareness and Training",
+          "items": [
+            {
+              "requirement": "Implement security awareness and training programs for workforce members.",
+              "id": "8e951193-0c32-4c41-b834-9ac6dde3930e"
+            },
+            {
+              "requirement": "Regularly update training materials to address new security threats and risks.",
+              "id": "c2f1bb76-9206-4e64-83b3-f4ba8be2cdee"
+            },
+            {
+              "requirement": "Provide training to new workforce members within a reasonable timeframe.",
+              "id": "e6e8ffbe-8c45-4395-aabf-d349909b0525"
+            }
+          ],
+          "id": "897bdd30-703a-4152-8f23-cf578d50f8bf"
+        },
+        {
+          "name": "Workforce Security",
+          "items": [
+            {
+              "requirement": "Implement policies and procedures to ensure appropriate workforce member access to ePHI.",
+              "id": "5c20122b-1b83-466a-9cf1-93e955f01955"
+            },
+            {
+              "requirement": "Implement procedures for authorizing and supervising workforce members who work with ePHI.",
+              "id": "3f0e5aee-31de-4c40-84d2-6c7375cd30d7"
+            },
+            {
+              "requirement": "Terminate access to ePHI for workforce members who are no longer authorized.",
+              "id": "3624b471-8d0d-4ce2-afcd-4a2aa8dabe85"
+            }
+          ],
+          "id": "996c73b4-087f-448f-8158-3f7c99c0bf46"
+        }
+      ],
+      "id": "6e4cf4c5-3be1-4066-b1ae-601a5134d503"
+    },
+    {
+      "title": "Physical Safeguards",
+      "subcategory": [
+        {
+          "name": "Facility Access Controls",
+          "items": [
+            {
+              "requirement": "Implement policies and procedures to limit physical access to ePHI.",
+              "id": "fe1c4777-a51a-49c7-b0ef-e7b94e395b86"
+            },
+            {
+              "requirement": "Control and monitor access to the facility and its physical components.",
+              "id": "2f1d9458-b0a3-45b4-98f5-afa11a0676a6"
+            },
+            {
+              "requirement": "Implement policies and procedures to address visitor access and control.",
+              "id": "b2a99d71-f3e8-45bf-a0e7-322ab02686e6"
+            }
+          ],
+          "id": "9aa280a8-ed53-41bd-a618-5a19c20686a2"
+        },
+        {
+          "name": "Workstation and Device Security",
+          "items": [
+            {
+              "requirement": "Implement policies and procedures to secure workstations and electronic devices.",
+              "id": "e42422d9-ad67-432f-92e4-a6052a8422f8"
+            },
+            {
+              "requirement": "Use physical safeguards to protect electronic media containing ePHI.",
+              "id": "8512d780-0285-4960-b83e-5e4ef9791aee"
+            },
+            {
+              "requirement": "Implement policies and procedures for the disposal of electronic media and hardware.",
+              "id": "244239d5-2794-470f-8b2b-ee2db51510ac"
+            }
+          ],
+          "id": "c7a93001-aa5c-4679-8000-d2f0f3cfb028"
+        }
+      ],
+      "id": "e69660d8-4770-4b7c-af85-9afed8b790c7"
+    },
+    {
+      "title": "Technical Safeguards",
+      "subcategory": [
+        {
+          "name": "Access Control",
+          "items": [
+            {
+              "requirement": "Implement technical policies and procedures to limit access to ePHI.",
+              "id": "59f1051e-677c-4e49-91bf-0d2c030ea844"
+            },
+            {
+              "requirement": "Assign unique user identifications to allow for tracking of access to ePHI.",
+              "id": "24595cb8-b900-4545-9e63-cc1f329e8cc1"
+            },
+            {
+              "requirement": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
+              "id": "1f8f91ed-a43c-4b6c-b868-964d54b8cc57"
+            }
+          ],
+          "id": "e8fffe91-721a-470d-89f8-410340de0a2d"
+        },
+        {
+          "name": "Audit Controls",
+          "items": [
+            {
+              "requirement": "Implement hardware, software, and procedural mechanisms to record and examine access and activity related to ePHI.",
+              "id": "1ee16945-4082-4706-899c-af60501cbc5c"
+            },
+            {
+              "requirement": "Implement procedures to regularly review audit logs for security incidents.",
+              "id": "b45a56d0-e62d-49e2-852b-d1fdb7193697"
+            }
+          ],
+          "id": "ded3d9ff-ce3b-4525-9674-adfd6c85537a"
+        },
+        {
+          "name": "Transmission Security",
+          "items": [
+            {
+              "requirement": "Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted.",
+              "id": "d920541a-d110-4f49-b6c8-663580387347"
+            },
+            {
+              "requirement": "Implement procedures to ensure the integrity and encryption of ePHI when being transmitted over an electronic communications network.",
+              "id": "cf6df741-0421-41c2-9bd1-2a7821cff770"
+            }
+          ],
+          "id": "11268516-1933-4af6-a139-c1f41dcf90a0"
+        }
+      ],
+      "id": "5003e99f-2ecd-44cb-a1fc-e064420d425c"
+    },
+    {
+      "title": "Breach Notification",
+      "subcategory": [
+        {
+          "name": "Breach Assessment",
+          "items": [
+            {
+              "requirement": "Implement policies and procedures to assess potential breaches of ePHI.",
+              "id": "9edc48b5-5d38-423c-bf91-44e48208bc16"
+            },
+            {
+              "requirement": "Determine if a breach of unsecured ePHI has occurred.",
+              "id": "ab32487b-68fd-4161-8a38-f883c229f9e8"
+            },
+            {
+              "requirement": "Notify affected individuals and the Secretary of HHS within specified timeframes in the event of a breach.",
+              "id": "17ea7622-d6d5-47ab-94b1-5aef8b4001dc"
+            }
+          ],
+          "id": "6c19f39b-f939-4f64-b186-25252833f7fc"
+        }
+      ],
+      "id": "9e3ef81d-93e1-428a-a1df-bba3f0d94543"
+    },
+    {
+      "title": "Privacy Rule",
+      "subcategory": [
+        {
+          "name": "Notice of Privacy Practices",
+          "items": [
+            {
+              "requirement": "Provide individuals with a notice of privacy practices that describes the uses and disclosures of their PHI.",
+              "id": "cb4eec7a-299b-4eeb-b155-9fa146fe4d08"
+            },
+            {
+              "requirement": "Obtain written acknowledgement of receipt of the notice from the individual.",
+              "id": "b4277d35-9472-49ce-af3a-a70a8fef61ee"
+            }
+          ],
+          "id": "61056eb0-90c3-4652-9614-95088510370b"
+        },
+        {
+          "name": "Individual Rights",
+          "items": [
+            {
+              "requirement": "Implement procedures for individuals to exercise their rights regarding their PHI.",
+              "id": "7e80c985-bb8e-4214-8301-781d3a500370"
+            },
+            {
+              "requirement": "Provide individuals with access to their PHI within specified timeframes.",
+              "id": "3e2ef24b-6027-4fdb-a862-38569deb5f45"
+            },
+            {
+              "requirement": "Allow individuals to request amendments to their PHI.",
+              "id": "706b599e-ea46-4183-a488-9c3fd34103d1"
+            }
+          ],
+          "id": "3e5fbd88-8193-49c1-a9c5-7c7a1ca4c057"
+        },
+        {
+          "name": "Minimum Necessary",
+          "items": [
+            {
+              "requirement": "Implement policies and procedures to limit the use, disclosure, and request of PHI to the minimum necessary for the intended purpose.",
+              "id": "24c769a6-756c-44dc-acbd-87d3ceb89b94"
+            }
+          ],
+          "id": "a85624ef-1f39-4dc9-b323-30ec06ad4158"
+        }
+      ],
+      "id": "329fe9e7-b32b-4ef8-96b0-85315d477a16"
+    }
+  ],
+  "id": "hipaa"
+}
