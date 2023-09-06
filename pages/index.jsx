@@ -26,9 +26,9 @@ export default function Home() {
           Get started by clicking on the button below!
         </p>
 
-        {/* Link to the Dashboard page*/}
+        {/* Link to the Demo page*/}
         <button className={styles.button}>
-          <Link legacyBehavior href="/dashboard">
+          <Link legacyBehavior href="/demo">
             <div className={styles.grid}>
               <Image src="/logo.png" alt="Cyberfit" width={300} height={300} priority={true} />
             </div>

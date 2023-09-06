@@ -10,7 +10,11 @@ export default function Login() {
         <div className={styles.container}>
             <main className={styles.main}>
                 <div className={styles.login_box}>
-                    <h1>One more step ⬇️</h1>
+                    <h2>
+                        Your journey starts here.
+                        <br />
+                        Sign in with Google below to explore our platform. ⬇️
+                    </h2>
                     <div className={styles.grid}>
                         <div className={styles.card}>
                             <button onClick={signInWithGoogle}>
